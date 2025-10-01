@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          NOVELM@STER NG
+          <img src="/img/logo-rect.jpeg" alt="NOVELM@STER NG" className="navbar-logo-img" />
         </Link>
         <ul className="navbar-menu">
           <li>

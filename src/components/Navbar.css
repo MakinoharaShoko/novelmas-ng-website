@@ -16,17 +16,17 @@
 }
 
 .navbar-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  display: flex;
+  align-items: center;
   text-decoration: none;
 }
 
-.navbar-logo:hover {
-  text-decoration: none;
+.navbar-logo-img {
+  height: 40px;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-logo:hover .navbar-logo-img {
   opacity: 0.8;
 }
 
