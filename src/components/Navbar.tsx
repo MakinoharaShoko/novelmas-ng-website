@@ -18,6 +18,9 @@ function Navbar() {
           <li>
             <Link to="/resources" className="navbar-link">资源</Link>
           </li>
+          <li>
+            <a href="/demo" className="navbar-link">Demo</a>
+          </li>
         </ul>
       </div>
     </nav>
