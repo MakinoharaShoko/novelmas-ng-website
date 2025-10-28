@@ -1,9 +1,9 @@
 {
-  "name": "CGSS_Test1",
-  "short_name": "CGSS_Test1",
+  "name": "WebGAL",
+  "short_name": "WebGAL",
   "start_url": ".",
   "display": "fullscreen",
-  "description": "",
+  "description": "WebGAL DEMO",
   "dir": "auto",
   "orientation": "landscape",
   "icons": [
