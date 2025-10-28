@@ -103,7 +103,7 @@ changeFigure:chara_308/costume_00/chara_308_00_face_04.png -next;
 ; id:6 | cmd:focus
 ; data:["308"]
 changeFigure:chara_308/costume_00/chara_308_00_face_04.png -next;
-千夜:本当に、お嬢さまたちは無事なんですか？  -story_5109906_001.mp3;
+千夜:本当に、お嬢さまたちは無事なんですか？  -story_5109906_001.wav;
 ; id:15 | cmd:wait
 ; data:["45"]
 ; id:15 | cmd:wait
@@ -123,7 +123,7 @@ changeFigure:chara_308/costume_00/chara_308_00_face_04.png -next;
 ; id:6 | cmd:focus
 ; data:["308"]
 changeFigure:chara_308/costume_00/chara_308_00_face_12.png -next;
-千夜:心配はしていません。|信頼しているので。ただの確認です。 -story_5109906_002.mp3;
+千夜:心配はしていません。|信頼しているので。ただの確認です。 -story_5109906_002.wav;
 ; id:15 | cmd:wait
 ; data:["70"]
 changeFigure:chara_308/costume_00/chara_308_00_face_01.png -next;
@@ -140,7 +140,7 @@ changeFigure:chara_308/costume_00/chara_308_00_face_01.png -next;
 ; id:6 | cmd:focus
 ; data:["308"]
 changeFigure:chara_308/costume_00/chara_308_00_face_06.png -next;
-千夜:それで。 -story_5109906_003.mp3;
+千夜:それで。 -story_5109906_003.wav;
 ; id:12 | cmd:touch
 ; data:["Null"]
 ; id:6 | cmd:focus
@@ -153,7 +153,7 @@ changeFigure:chara_308/costume_00/chara_308_00_face_06.png -next;
 changeFigure:chara_308/costume_00/chara_308_00_face_03.png -next;
 ; id:54 | cmd:question_l
 ; data:["308"]
-千夜:ん、ではなく。|旅が終わる合図となるキーワードとは、いったいなんなのですか。|まさか……ないなどとは言いませんよね。  -story_5109906_004.mp3;
+千夜:ん、ではなく。|旅が終わる合図となるキーワードとは、いったいなんなのですか。|まさか……ないなどとは言いませんよね。  -story_5109906_004.wav;
 ; id:15 | cmd:wait
 ; data:["30"]
 changeFigure:chara_308/costume_00/chara_308_00_face_07.png -next;
@@ -209,7 +209,7 @@ changeFigure:chara_308/costume_00/chara_308_00_face_04.png -next;
 ; data:["308"]
 ; id:5 | cmd:face
 ; data:["308","0","0"]
-千夜:だけど、予想は外れた。でもなんだ、その顔は。|随分と嬉しそうに。  -story_5109906_005.mp3;
+千夜:だけど、予想は外れた。でもなんだ、その顔は。|随分と嬉しそうに。  -story_5109906_005.wav;
 ; id:15 | cmd:wait
 ; data:["30"]
 ; id:15 | cmd:wait
@@ -248,7 +248,7 @@ changeFigure:chara_308/costume_00/chara_308_00_face_07.png -next;
 changeFigure:chara_308/costume_00/chara_308_00_face_01.png -next;
 ; id:77 | cmd:unknown
 ; data:["308"]
-千夜:はぁ……。酔狂だな。 -story_5109906_006.mp3;
+千夜:はぁ……。酔狂だな。 -story_5109906_006.wav;
 ; id:15 | cmd:wait
 ; data:["45"]
 changeFigure:chara_308/costume_00/chara_308_00_face_02.png -next;
@@ -257,7 +257,7 @@ changeFigure:chara_308/costume_00/chara_308_00_face_02.png -next;
 ; id:6 | cmd:focus
 ; data:["308"]
 changeFigure:chara_308/costume_00/chara_308_00_face_01.png -next;
-千夜:……土産話を心待ちにしている私も、大概に。  -story_5109906_007.mp3;
+千夜:……土産話を心待ちにしている私も、大概に。  -story_5109906_007.wav;
 ; id:15 | cmd:wait
 ; data:["45"]
 ; id:15 | cmd:wait
@@ -303,7 +303,7 @@ changeFigure:chara_194/costume_94/chara_194_94_face_03.png -right -next;
 ; id:6 | cmd:focus
 ; data:["238"]
 changeFigure:chara_238/costume_95/chara_238_95_face_03.png -left -next;
-夏樹:頼むから大人しくしててくれよ……|よーし、いい子だ……。 -story_5109906_008.mp3;
+夏樹:頼むから大人しくしててくれよ……|よーし、いい子だ……。 -story_5109906_008.wav;
 ; id:15 | cmd:wait
 ; data:["15"]
 ; id:58 | cmd:drop_r
@@ -323,7 +323,7 @@ bgm:none;
 ; id:6 | cmd:focus
 ; data:["194"]
 changeFigure:chara_194/costume_94/chara_194_94_face_04.png -right -next;
-涼:急げ、今のうちに走るぞッ ! -story_5109906_009.mp3;
+涼:急げ、今のうちに走るぞッ ! -story_5109906_009.wav;
 ; id:15 | cmd:wait
 ; data:["25"]
 changeFigure:chara_194/costume_94/chara_194_94_face_03.png -right -next;
@@ -379,7 +379,7 @@ changeFigure:chara_194/costume_94/chara_194_94_face_03.png -right -next;
 changeFigure:chara_238/costume_95/chara_238_95_face_04.png -left -next;
 ; id:52 | cmd:sweat_l
 ; data:["238"]
-夏樹:クソッ、ダメか……っ ! ! -story_5109906_010.mp3;
+夏樹:クソッ、ダメか……っ ! ! -story_5109906_010.wav;
 ; id:15 | cmd:wait
 ; data:["30"]
 ; id:12 | cmd:touch
@@ -396,7 +396,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_09.png -left -next;
 changeFigure:chara_307/costume_93/chara_307_93_face_09.png -left -next;
 ; id:46 | cmd:find_l
 ; data:["307"]
-ちとせ:下がって。 -story_5109906_011.mp3;
+ちとせ:下がって。 -story_5109906_011.wav;
 ; id:12 | cmd:touch
 ; data:["Null"]
 changeFigure:none -left -next;
@@ -416,7 +416,7 @@ changeFigure:chara_194/costume_94/chara_194_94_face_03.png -right -next;
 ; data:["238"]
 ; id:107 | cmd:unknown
 ; data:["194"]
-夏樹・涼:ちとせ ! ？ -story_5109906_012.mp3;
+夏樹・涼:ちとせ ! ？ -story_5109906_012.wav;
 ; id:12 | cmd:touch
 ; data:["Null"]
 changeFigure:none -left -next;
@@ -443,7 +443,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_01.png -left -next;
 ; id:6 | cmd:focus
 ; data:["307"]
 changeFigure:chara_307/costume_93/chara_307_93_face_01.png -left -next;
-ちとせ:シャークちゃん、私の目を見て。|……そう、怖くないよ。 -story_5109906_013.mp3;
+ちとせ:シャークちゃん、私の目を見て。|……そう、怖くないよ。 -story_5109906_013.wav;
 ; id:15 | cmd:wait
 ; data:["40"]
 ; id:5 | cmd:face
@@ -461,7 +461,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_06.png -left -next;
 ; data:["307"]
 ; id:5 | cmd:face
 ; data:["307","0","93"]
-ちとせ:広い場所にひとりは寂しいよね。心細いよね。|でも……大丈夫。それも今日で、終わりだよ。 -story_5109906_014.mp3;
+ちとせ:広い場所にひとりは寂しいよね。心細いよね。|でも……大丈夫。それも今日で、終わりだよ。 -story_5109906_014.wav;
 ; id:15 | cmd:wait
 ; data:["75"]
 ; id:46 | cmd:find_l
@@ -484,7 +484,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_08.png -left -next;
 ; id:6 | cmd:focus
 ; data:["307"]
 changeFigure:chara_307/costume_93/chara_307_93_face_05.png -left -next;
-ちとせ:私が支配してあげる。|空っぽの貴方を、たっぷり満たしてあげるよ。|ほら……私を、好きになっちゃえ♪ -story_5109906_015.mp3;
+ちとせ:私が支配してあげる。|空っぽの貴方を、たっぷり満たしてあげるよ。|ほら……私を、好きになっちゃえ♪ -story_5109906_015.wav;
 ; id:15 | cmd:wait
 ; data:["85"]
 ; id:15 | cmd:wait
@@ -531,7 +531,7 @@ bgm:bgm_commu_girls.mp3;
 ; id:6 | cmd:focus
 ; data:["307"]
 changeFigure:chara_307/costume_93/chara_307_93_face_02.png -left -next;
-ちとせ:あは、素直だね。可愛い♪ -story_5109906_016.mp3;
+ちとせ:あは、素直だね。可愛い♪ -story_5109906_016.wav;
 ; id:27 | cmd:nod
 ; data:["307"]
 ; id:15 | cmd:wait
@@ -552,7 +552,7 @@ changeFigure:chara_194/costume_94/chara_194_94_face_03.png -right -next;
 ; id:6 | cmd:focus
 ; data:["238"]
 changeFigure:chara_238/costume_95/chara_238_95_face_04.png -left -next;
-夏樹:いったいなんだってんだ…… ! ？  -story_5109906_017.mp3;
+夏樹:いったいなんだってんだ…… ! ？  -story_5109906_017.wav;
 ; id:15 | cmd:wait
 ; data:["20"]
 ; id:58 | cmd:drop_r
@@ -582,7 +582,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_06.png -right -next;
 ; data:["194"]
 ; id:5 | cmd:face
 ; data:["194","0","94"]
-涼:ヘッドホン、音源、心の準備はいいか？  -story_5109906_018.mp3;
+涼:ヘッドホン、音源、心の準備はいいか？  -story_5109906_018.wav;
 ; id:15 | cmd:wait
 ; data:["30"]
 ; id:15 | cmd:wait
@@ -599,7 +599,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_06.png -right -next;
 ; data:["307"]
 ; id:5 | cmd:face
 ; data:["307","0","93"]
-ちとせ:はーい。|こっちで聴くロックは、またひと味違いそうだね♪  -story_5109906_019.mp3;
+ちとせ:はーい。|こっちで聴くロックは、またひと味違いそうだね♪  -story_5109906_019.wav;
 ; id:27 | cmd:nod
 ; data:["307"]
 ; id:15 | cmd:wait
@@ -617,7 +617,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_02.png -right -next;
 ; data:["238"]
 ; id:5 | cmd:face
 ; data:["238","0","95"]
-夏樹:何を聴くかも大事だが、どこで聴くかも大事だからな。 -story_5109906_020.mp3;
+夏樹:何を聴くかも大事だが、どこで聴くかも大事だからな。 -story_5109906_020.wav;
 ; id:15 | cmd:wait
 ; data:["55"]
 ; id:5 | cmd:face
@@ -630,7 +630,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_02.png -right -next;
 ; data:["194"]
 ; id:5 | cmd:face
 ; data:["194","2","94"]
-涼:じゃ、同時リッスン開始だッ !  -story_5109906_021.mp3;
+涼:じゃ、同時リッスン開始だッ !  -story_5109906_021.wav;
 ; id:27 | cmd:nod
 ; data:["194"]
 ; id:15 | cmd:wait
@@ -661,7 +661,7 @@ playEffect:se/se_commu_sound_leakage.mp3;
 ; data:["194"]
 ; id:5 | cmd:face
 ; data:["194","1","94"]
-涼:（まさかアメリカまで来て、3人並んでロックを聴くとはな……|フフ、音楽で繋がってるって感じで悪くないぜ。）  -story_5109906_022.mp3;
+涼:（まさかアメリカまで来て、3人並んでロックを聴くとはな……|フフ、音楽で繋がってるって感じで悪くないぜ。）  -story_5109906_022.wav;
 ; id:15 | cmd:wait
 ; data:["45"]
 ; id:5 | cmd:face
@@ -688,7 +688,7 @@ playEffect:se/se_commu_sound_leakage.mp3;
 ; data:["238"]
 ; id:5 | cmd:face
 ; data:["238","1","95"]
-夏樹:（海が綺麗だ。|人も音楽も、この海を渡って世界中に広がっていくんだ。|ああ、海外で聴くロックは、また格別だな。） -story_5109906_023.mp3;
+夏樹:（海が綺麗だ。|人も音楽も、この海を渡って世界中に広がっていくんだ。|ああ、海外で聴くロックは、また格別だな。） -story_5109906_023.wav;
 ; id:15 | cmd:wait
 ; data:["75"]
 ; id:15 | cmd:wait
@@ -718,7 +718,8 @@ bgm:none;
 ; id:33 | cmd:white_out
 ; data:["Null"]
 changeFigure:none -right -next;
-changeBg:card_bg_101413.unity3d -next;
+; id:7 | cmd:background
+; data:["101413"]
 ; id:15 | cmd:wait
 ; data:["30"]
 bgm:bgm_commu_drivingmyway.mp3;
@@ -726,7 +727,7 @@ bgm:bgm_commu_drivingmyway.mp3;
 ; data:["Null"]
 ; id:6 | cmd:focus
 ; data:["307"]
-ちとせ:（ヘッドホンで聴く爆音ロックって、こんな感じなんだ。|あは、頭の中がぐちゃぐちゃになっちゃいそうで面白い♪） -story_5109906_024.mp3;
+ちとせ:（ヘッドホンで聴く爆音ロックって、こんな感じなんだ。|あは、頭の中がぐちゃぐちゃになっちゃいそうで面白い♪） -story_5109906_024.wav;
 ; id:15 | cmd:wait
 ; data:["65"]
 ; id:15 | cmd:wait
@@ -780,7 +781,7 @@ playEffect:se/se_commu_wow_3.mp3;
 ; data:["28"]
 ; id:6 | cmd:focus
 ; data:["307"]
-ちとせ:（ああ……高まってきた……っ ! ! ） -story_5109906_025.mp3;
+ちとせ:（ああ……高まってきた……っ ! ! ） -story_5109906_025.wav;
 ; id:15 | cmd:wait
 ; data:["40"]
 ; id:12 | cmd:touch
@@ -808,7 +809,7 @@ changeFigure:chara_194/costume_94/chara_194_94_face_02.png -next;
 changeFigure:chara_307/costume_93/chara_307_93_face_02.png -right -next;
 ; id:45 | cmd:concent
 ; data:["194"]
-3人:Yeah～～～ ! ! ! -story_5109906_026.mp3;
+3人:Yeah～～～ ! ! ! -story_5109906_026.wav;
 ; id:12 | cmd:touch
 ; data:["Null"]
 changeFigure:none -left -next;
@@ -855,7 +856,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_04.png -right -next;
 ; id:6 | cmd:focus
 ; data:["307"]
 changeFigure:chara_307/costume_93/chara_307_93_face_04.png -right -next;
-ちとせ:ねえ、まだ追ってきてるよ ! ! -story_5109906_027.mp3;
+ちとせ:ねえ、まだ追ってきてるよ ! ! -story_5109906_027.wav;
 ; id:27 | cmd:nod
 ; data:["307"]
 ; id:15 | cmd:wait
@@ -901,7 +902,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_11.png -right -next;
 ; id:6 | cmd:focus
 ; data:["238"]
 changeFigure:chara_238/costume_95/chara_238_95_face_01.png -left -next;
-夏樹:さすがにアタシでも聞き取れたぜ。|やっぱり、スナイパーデスシャークって言ってるな。 -story_5109906_028.mp3;
+夏樹:さすがにアタシでも聞き取れたぜ。|やっぱり、スナイパーデスシャークって言ってるな。 -story_5109906_028.wav;
 ; id:15 | cmd:wait
 ; data:["30"]
 ; id:27 | cmd:nod
@@ -918,7 +919,7 @@ changeFigure:chara_238/costume_95/chara_238_95_face_04.png -left -next;
 ; id:6 | cmd:focus
 ; data:["307"]
 changeFigure:chara_307/costume_93/chara_307_93_face_11.png -right -next;
-ちとせ:……っ、ごめんなさい。|私がシャークを魅了しちゃったばっかりに。  -story_5109906_029.mp3;
+ちとせ:……っ、ごめんなさい。|私がシャークを魅了しちゃったばっかりに。  -story_5109906_029.wav;
 ; id:15 | cmd:wait
 ; data:["30"]
 changeFigure:chara_307/costume_93/chara_307_93_face_10.png -right -next;
@@ -938,7 +939,7 @@ changeFigure:chara_307/costume_93/chara_307_93_face_10.png -right -next;
 ; data:["238","0","95"]
 ; id:46 | cmd:find_l
 ; data:["238"]
-夏樹:チャームがあるなら誰だってそうするさ。|使わない力は、あっという間に錆びちまう。  -story_5109906_030.mp3;
+夏樹:チャームがあるなら誰だってそうするさ。|使わない力は、あっという間に錆びちまう。  -story_5109906_030.wav;
 ; id:15 | cmd:wait
 ; data:["65"]
 changeFigure:chara_238/costume_95/chara_238_95_face_01.png -left -next;
@@ -955,7 +956,7 @@ changeFigure:chara_238/costume_95/chara_238_95_face_01.png -left -next;
 ; id:6 | cmd:focus
 ; data:["194"]
 changeFigure:chara_194/costume_94/chara_194_94_face_03.png -next;
-涼:けど……このままじゃマズい。秒で追いつかれるぜッ !  -story_5109906_031.mp3;
+涼:けど……このままじゃマズい。秒で追いつかれるぜッ !  -story_5109906_031.wav;
 ; id:15 | cmd:wait
 ; data:["35"]
 ; id:53 | cmd:sweat_r
@@ -969,7 +970,7 @@ changeFigure:chara_194/costume_94/chara_194_94_face_03.png -next;
 ; id:6 | cmd:focus
 ; data:["238"]
 changeFigure:chara_238/costume_95/chara_238_95_face_01.png -left -next;
-夏樹:走るか死ぬか、だな。|……飛ばすぜ。舌噛まないように、口結んでな ! !  -story_5109906_032.mp3;
+夏樹:走るか死ぬか、だな。|……飛ばすぜ。舌噛まないように、口結んでな ! !  -story_5109906_032.wav;
 ; id:15 | cmd:wait
 ; data:["55"]
 ; id:27 | cmd:nod
@@ -1031,7 +1032,7 @@ bgm:bgm_commu_regular.mp3;
 ; data:["308"]
 ; id:5 | cmd:face
 ; data:["308","4","0"]
-千夜:おい。  -story_5109906_033.mp3;
+千夜:おい。  -story_5109906_033.wav;
 ; id:27 | cmd:nod
 ; data:["308"]
 ; id:12 | cmd:touch
