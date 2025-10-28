@@ -1,0 +1,2273 @@
+faceid:0 | cmd:title
+data:["ドラマチック珍道中"]
+
+id:1 | cmd:outline
+data:["「自分たちは自分らしい道を往く」。それが終了の\\nキーワード。事務所で千夜と話すPは、その言葉が\\n未だ発せられていないことを喜ぶ。一方そのころ\\n夏樹たちは、シャークを巡って争う謎の組織に追われ\\n激しいカーチェイスを繰り広げていた。日本の常識は\\n通用しない。はたして無事でいられるのだろうか…？"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:7 | cmd:background
+data:["3011"]
+
+id:11 | cmd:bgm
+data:["bgm/bgm_commu_regular"]
+
+id:61 | cmd:title_telop
+data:["5109905"]
+
+id:36 | cmd:situation
+data:["通話中"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["後輩P","『ピンチもありましたが……"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["後輩P","\\nスタッフの力を借りずに、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:8 | cmd:print
+data:["後輩P","乗り越えてます。"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:8 | cmd:print
+data:["後輩P","\\n3人とも、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["後輩P","とっても楽しそうに。』"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["後輩P","『やっぱりアイドルのみなさん、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:8 | cmd:print
+data:["後輩P","すごいですね。"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["後輩P","本当にタフで、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:8 | cmd:print
+data:["後輩P","\\nどんなことでも楽しんでやろう ! "]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["後輩P","って気概もあって。"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:8 | cmd:print
+data:["後輩P","\\n私も気が引き締まる思いです。』"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","報告ありがとう。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["{0}P","\\nやっぱり、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["{0}P","3人に旅をさせてよかったよ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["後輩P","『それで、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:8 | cmd:print
+data:["後輩P","もうすぐ予定されていた2週間になりますが……"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["後輩P","\\nどうでしょう？ "]
+
+id:54 | cmd:question_l
+data:["782"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["後輩P","スケジュールなどは。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["後輩P","あと1週間、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["後輩P","続けますか？"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["後輩P","\\n私としては、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["後輩P","ここで終わるのは惜しいなと思ってますが……。』"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","当然。"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:8 | cmd:print
+data:["{0}P","まだいけるよ。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["{0}P","\\n続行だ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_tel_off"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:2 | cmd:chara
+data:["308","C","0","4"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["308"]
+
+id:6 | cmd:focus
+data:["308"]
+
+id:14 | cmd:vo
+data:["voice_0"]
+
+id:5 | cmd:face
+data:["308","4","0"]
+
+id:8 | cmd:print
+data:["千夜","本当に、"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:8 | cmd:print
+data:["千夜","お嬢さまたちは無事なんですか？"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:46 | cmd:find_l
+data:["308"]
+
+id:8 | cmd:print
+data:["千夜"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","ああ、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["{0}P","心配はいらないよ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["308"]
+
+id:14 | cmd:vo
+data:["voice_1"]
+
+id:5 | cmd:face
+data:["308","12","0"]
+
+id:8 | cmd:print
+data:["千夜","心配はしていません。"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:8 | cmd:print
+data:["千夜","\\n"]
+
+id:5 | cmd:face
+data:["308","1","0"]
+
+id:8 | cmd:print
+data:["千夜","信頼しているので。"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["308"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["308","0","0"]
+
+id:8 | cmd:print
+data:["千夜","ただの確認です。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["308"]
+
+id:14 | cmd:vo
+data:["voice_2"]
+
+id:5 | cmd:face
+data:["308","6","0"]
+
+id:8 | cmd:print
+data:["千夜","それで。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","ん？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["308"]
+
+id:14 | cmd:vo
+data:["voice_3"]
+
+id:5 | cmd:face
+data:["308","3","0"]
+
+id:54 | cmd:question_l
+data:["308"]
+
+id:8 | cmd:print
+data:["千夜","ん、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["308","7","0"]
+
+id:8 | cmd:print
+data:["千夜","ではなく。"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:8 | cmd:print
+data:["千夜","\\n"]
+
+id:5 | cmd:face
+data:["308","6","0"]
+
+id:8 | cmd:print
+data:["千夜","旅が終わる合図となるキーワードとは、"]
+
+id:15 | cmd:wait
+data:["85"]
+
+id:46 | cmd:find_l
+data:["308"]
+
+id:8 | cmd:print
+data:["千夜","いったいなんなのですか。"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:8 | cmd:print
+data:["千夜","\\n"]
+
+id:5 | cmd:face
+data:["308","4","0"]
+
+id:8 | cmd:print
+data:["千夜","まさか……"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["千夜","ないなどとは"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:8 | cmd:print
+data:["千夜","言いませんよね。"]
+
+id:54 | cmd:question_l
+data:["308"]
+
+id:8 | cmd:print
+data:["千夜"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","まさか……"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["{0}P","あるさ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","「自分たちは自分らしい道を往く」"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["{0}P","\\nそう口にすることだ。"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["{0}P","別に難しい話じゃないだろう？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","3人とも、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:8 | cmd:print
+data:["{0}P","自分らしさを貫いてきたアイドルだからね。"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["{0}P","\\nこの結論はすぐ出るだろうと思ってたんだ。"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:8 | cmd:print
+data:["{0}P","\\nだけど……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["308"]
+
+id:14 | cmd:vo
+data:["voice_4"]
+
+id:5 | cmd:face
+data:["308","0","0"]
+
+id:8 | cmd:print
+data:["千夜","だけど、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["千夜","予想は外れた。"]
+
+id:15 | cmd:wait
+data:["90"]
+
+id:5 | cmd:face
+data:["308","12","0"]
+
+id:8 | cmd:print
+data:["千夜","でも"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["千夜","なんだ、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:5 | cmd:face
+data:["308","6","0"]
+
+id:8 | cmd:print
+data:["千夜","その顔は。"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["千夜","\\n"]
+
+id:5 | cmd:face
+data:["308","7","0"]
+
+id:8 | cmd:print
+data:["千夜","随分と嬉しそうに。"]
+
+id:46 | cmd:find_l
+data:["308"]
+
+id:8 | cmd:print
+data:["千夜"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","プロデューサーの予想を、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["{0}P","期待を、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:8 | cmd:print
+data:["{0}P","アイドルたちが超えてくれる。"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["{0}P","\\nこんなに嬉しいことは、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:8 | cmd:print
+data:["{0}P","なかなかないからね。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["308"]
+
+id:14 | cmd:vo
+data:["voice_5"]
+
+id:5 | cmd:face
+data:["308","1","0"]
+
+id:77 | cmd:unknown
+data:["308"]
+
+id:8 | cmd:print
+data:["千夜","はぁ……。"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:5 | cmd:face
+data:["308","2","0"]
+
+id:8 | cmd:print
+data:["千夜","酔狂だな。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["308"]
+
+id:14 | cmd:vo
+data:["voice_6"]
+
+id:5 | cmd:face
+data:["308","1","0"]
+
+id:8 | cmd:print
+data:["千夜","……土産話を"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:8 | cmd:print
+data:["千夜","心待ちにしている私も、"]
+
+id:15 | cmd:wait
+data:["80"]
+
+id:8 | cmd:print
+data:["千夜","大概に。"]
+
+id:15 | cmd:wait
+data:["5"]
+
+id:27 | cmd:nod
+data:["308"]
+
+id:8 | cmd:print
+data:["千夜"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cut_2"]
+
+id:35 | cmd:transition
+data:["arrow"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:7 | cmd:background
+data:["7521"]
+
+id:2 | cmd:chara
+data:["961","C","0","0"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:11 | cmd:bgm
+data:["bgm/bgm_commu_tension"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:40 | cmd:text_size
+data:["20"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["シャーク","シャアァァァーーク……。"]
+
+id:27 | cmd:nod
+data:["961"]
+
+id:8 | cmd:print
+data:["シャーク"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["238","LC","95","3"]
+
+id:2 | cmd:chara
+data:["194","RC","94","3"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["238:194"]
+
+id:40 | cmd:text_size
+data:["24"]
+
+id:6 | cmd:focus
+data:["238"]
+
+id:14 | cmd:vo
+data:["voice_7"]
+
+id:5 | cmd:face
+data:["238","3","95"]
+
+id:8 | cmd:print
+data:["夏樹","頼むから大人しくしててくれよ……"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:58 | cmd:drop_r
+data:["238"]
+
+id:15 | cmd:wait
+data:["75"]
+
+id:8 | cmd:print
+data:["夏樹","\\n"]
+
+id:5 | cmd:face
+data:["238","1","95"]
+
+id:8 | cmd:print
+data:["夏樹","よーし、"]
+
+id:27 | cmd:nod
+data:["238"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:5 | cmd:face
+data:["238","0","95"]
+
+id:8 | cmd:print
+data:["夏樹","いい子だ……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:11 | cmd:bgm
+data:["stop"]
+
+id:6 | cmd:focus
+data:["194"]
+
+id:14 | cmd:vo
+data:["voice_8"]
+
+id:5 | cmd:face
+data:["194","4","94"]
+
+id:8 | cmd:print
+data:["涼","急げ、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:5 | cmd:face
+data:["194","3","94"]
+
+id:47 | cmd:find_r
+data:["194"]
+
+id:8 | cmd:print
+data:["涼","今のうちに走るぞッ !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_run_5"]
+
+id:18 | cmd:out_L
+data:["238:194","40"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:11 | cmd:bgm
+data:["bgm/bgm_commu_anger"]
+
+id:2 | cmd:chara
+data:["961","C","0","0"]
+
+id:20 | cmd:fadein
+data:["961"]
+
+id:40 | cmd:text_size
+data:["46"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:45 | cmd:concent
+data:["961"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_shark_1"]
+
+id:8 | cmd:print
+data:["シャーク","シャーーーーーク ! ! !"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["シャーク","\\nグオオオオオオオン ! ! !"]
+
+id:41 | cmd:shake_screen
+data:["Null"]
+
+id:8 | cmd:print
+data:["シャーク"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:18 | cmd:out_L
+data:["961","20"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["238","LC","95","4"]
+
+id:2 | cmd:chara
+data:["194","RC","94","3"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["238:194"]
+
+id:40 | cmd:text_size
+data:["24"]
+
+id:6 | cmd:focus
+data:["238"]
+
+id:14 | cmd:vo
+data:["voice_9"]
+
+id:5 | cmd:face
+data:["238","4","95"]
+
+id:52 | cmd:sweat_l
+data:["238"]
+
+id:8 | cmd:print
+data:["夏樹","クソッ、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["夏樹","ダメか……っ ! !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["307","LC","93","9"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["307"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_10"]
+
+id:5 | cmd:face
+data:["307","9","93"]
+
+id:46 | cmd:find_l
+data:["307"]
+
+id:8 | cmd:print
+data:["ちとせ","下がって。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["238","LC","95","4"]
+
+id:2 | cmd:chara
+data:["194","RC","94","3"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["238:194"]
+
+id:40 | cmd:text_size
+data:["36"]
+
+id:6 | cmd:focus
+data:["238:194"]
+
+id:14 | cmd:vo
+data:["voice_11"]
+
+id:5 | cmd:face
+data:["238","4","95"]
+
+id:5 | cmd:face
+data:["194","3","94"]
+
+id:106 | cmd:unknown
+data:["238"]
+
+id:107 | cmd:unknown
+data:["194"]
+
+id:8 | cmd:print
+data:["夏樹・涼","ちとせ ! ？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["307","LC","93","1"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["307"]
+
+id:15 | cmd:wait
+data:["5"]
+
+id:2 | cmd:chara
+data:["961","RC","0","0"]
+
+id:17 | cmd:in_R
+data:["961","20"]
+
+id:15 | cmd:wait
+data:["5"]
+
+id:25 | cmd:shake
+data:["961"]
+
+id:40 | cmd:text_size
+data:["24"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_12"]
+
+id:5 | cmd:face
+data:["307","1","93"]
+
+id:8 | cmd:print
+data:["ちとせ","シャークちゃん、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["307","0","93"]
+
+id:8 | cmd:print
+data:["ちとせ","私の目を見て。"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["ちとせ","\\n……そう、"]
+
+id:27 | cmd:nod
+data:["307"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["307","6","93"]
+
+id:8 | cmd:print
+data:["ちとせ","怖くないよ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_13"]
+
+id:5 | cmd:face
+data:["307","0","93"]
+
+id:8 | cmd:print
+data:["ちとせ","広い場所にひとりは寂しいよね。"]
+
+id:15 | cmd:wait
+data:["75"]
+
+id:46 | cmd:find_l
+data:["307"]
+
+id:8 | cmd:print
+data:["ちとせ","心細いよね。"]
+
+id:15 | cmd:wait
+data:["65"]
+
+id:8 | cmd:print
+data:["ちとせ","\\n"]
+
+id:5 | cmd:face
+data:["307","6","93"]
+
+id:8 | cmd:print
+data:["ちとせ","でも……"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:5 | cmd:face
+data:["307","12","93"]
+
+id:8 | cmd:print
+data:["ちとせ","大丈夫。"]
+
+id:27 | cmd:nod
+data:["307"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["307","8","93"]
+
+id:8 | cmd:print
+data:["ちとせ","それも今日で、"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["ちとせ","終わりだよ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_14"]
+
+id:5 | cmd:face
+data:["307","5","93"]
+
+id:8 | cmd:print
+data:["ちとせ","私が支配してあげる。"]
+
+id:15 | cmd:wait
+data:["85"]
+
+id:8 | cmd:print
+data:["ちとせ","\\n空っぽの貴方を、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["ちとせ","たっぷり"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:50 | cmd:chord_l
+data:["307"]
+
+id:8 | cmd:print
+data:["ちとせ","満たしてあげるよ。"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["ちとせ","\\n"]
+
+id:5 | cmd:face
+data:["307","0","93"]
+
+id:8 | cmd:print
+data:["ちとせ","ほら……"]
+
+id:27 | cmd:nod
+data:["307"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:5 | cmd:face
+data:["307","12","93"]
+
+id:8 | cmd:print
+data:["ちとせ","私を、"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:72 | cmd:unknown
+data:["307"]
+
+id:8 | cmd:print
+data:["ちとせ","好きになっちゃえ♪"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:11 | cmd:bgm
+data:["stop"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_zukyuun"]
+
+id:44 | cmd:flower_r
+data:["961"]
+
+id:26 | cmd:pop
+data:["961"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:72 | cmd:unknown
+data:["961"]
+
+id:8 | cmd:print
+data:["シャーク","フシャーー……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:11 | cmd:bgm
+data:["bgm/bgm_commu_girls"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_15"]
+
+id:5 | cmd:face
+data:["307","2","93"]
+
+id:8 | cmd:print
+data:["ちとせ","あは、"]
+
+id:27 | cmd:nod
+data:["307"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちとせ","素直だね。"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:50 | cmd:chord_l
+data:["307"]
+
+id:8 | cmd:print
+data:["ちとせ","可愛い♪"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["238","LC","95","4"]
+
+id:2 | cmd:chara
+data:["194","RC","94","3"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["238:194"]
+
+id:6 | cmd:focus
+data:["238"]
+
+id:14 | cmd:vo
+data:["voice_16"]
+
+id:5 | cmd:face
+data:["238","4","95"]
+
+id:8 | cmd:print
+data:["夏樹","いったいなんだってんだ…… ! ？"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:58 | cmd:drop_r
+data:["238"]
+
+id:8 | cmd:print
+data:["夏樹"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cut_2"]
+
+id:35 | cmd:transition
+data:["arrow"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:7 | cmd:background
+data:["8392"]
+
+id:2 | cmd:chara
+data:["238","L","95","0"]
+
+id:2 | cmd:chara
+data:["194","C","94","0"]
+
+id:2 | cmd:chara
+data:["307","R","93","6"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:6 | cmd:focus
+data:["194"]
+
+id:14 | cmd:vo
+data:["voice_17"]
+
+id:5 | cmd:face
+data:["194","0","94"]
+
+id:8 | cmd:print
+data:["涼","ヘッドホン、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["涼","音源、"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:5 | cmd:face
+data:["194","2","94"]
+
+id:8 | cmd:print
+data:["涼","心の準備はいいか？"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:55 | cmd:question_r
+data:["194"]
+
+id:8 | cmd:print
+data:["涼"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_18"]
+
+id:5 | cmd:face
+data:["307","0","93"]
+
+id:8 | cmd:print
+data:["ちとせ","はーい。"]
+
+id:27 | cmd:nod
+data:["307"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["ちとせ","\\n"]
+
+id:5 | cmd:face
+data:["307","2","93"]
+
+id:8 | cmd:print
+data:["ちとせ","こっちで聴くロックは、"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["ちとせ","またひと味違いそうだね♪"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:50 | cmd:chord_l
+data:["307"]
+
+id:8 | cmd:print
+data:["ちとせ"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["238"]
+
+id:14 | cmd:vo
+data:["voice_19"]
+
+id:5 | cmd:face
+data:["238","0","95"]
+
+id:8 | cmd:print
+data:["夏樹","何を聴くかも大事だが、"]
+
+id:15 | cmd:wait
+data:["55"]
+
+id:5 | cmd:face
+data:["238","2","95"]
+
+id:46 | cmd:find_l
+data:["238"]
+
+id:8 | cmd:print
+data:["夏樹","どこで聴くかも大事だからな。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["194"]
+
+id:14 | cmd:vo
+data:["voice_20"]
+
+id:5 | cmd:face
+data:["194","2","94"]
+
+id:8 | cmd:print
+data:["涼","じゃ、"]
+
+id:27 | cmd:nod
+data:["194"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:8 | cmd:print
+data:["涼","同時リッスン開始だッ !"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:86 | cmd:unknown
+data:["194"]
+
+id:8 | cmd:print
+data:["涼"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:5 | cmd:face
+data:["238","1","95"]
+
+id:5 | cmd:face
+data:["194","1","94"]
+
+id:5 | cmd:face
+data:["307","1","93"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_sound_leakage"]
+
+id:50 | cmd:chord_l
+data:["238:194:307"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:6 | cmd:focus
+data:["194"]
+
+id:14 | cmd:vo
+data:["voice_21"]
+
+id:5 | cmd:face
+data:["194","1","94"]
+
+id:8 | cmd:print
+data:["涼","（まさかアメリカまで来て、"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:5 | cmd:face
+data:["194","1","94"]
+
+id:8 | cmd:print
+data:["涼","3人並んでロックを聴くとはな……"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:8 | cmd:print
+data:["涼","\\n"]
+
+id:5 | cmd:face
+data:["194","2","94"]
+
+id:8 | cmd:print
+data:["涼","フフ、"]
+
+id:27 | cmd:nod
+data:["194"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["涼","音楽で繋がってる"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["194","5","94"]
+
+id:8 | cmd:print
+data:["涼","って感じで悪くないぜ。）"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:51 | cmd:chord_r
+data:["194"]
+
+id:8 | cmd:print
+data:["涼"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["238"]
+
+id:14 | cmd:vo
+data:["voice_22"]
+
+id:5 | cmd:face
+data:["238","1","95"]
+
+id:8 | cmd:print
+data:["夏樹","（海が綺麗だ。"]
+
+id:15 | cmd:wait
+data:["75"]
+
+id:8 | cmd:print
+data:["夏樹","\\n人も音楽も、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:5 | cmd:face
+data:["238","5","95"]
+
+id:8 | cmd:print
+data:["夏樹","この海を渡って世界中に広がっていくんだ。"]
+
+id:15 | cmd:wait
+data:["110"]
+
+id:8 | cmd:print
+data:["夏樹","\\n"]
+
+id:5 | cmd:face
+data:["238","2","95"]
+
+id:8 | cmd:print
+data:["夏樹","ああ、"]
+
+id:27 | cmd:nod
+data:["238"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["夏樹","海外で聴くロックは、"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:74 | cmd:unknown
+data:["238"]
+
+id:8 | cmd:print
+data:["夏樹","また格別だな。）"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_sound_leakage"]
+
+id:11 | cmd:bgm
+data:["stop","1"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:33 | cmd:white_out
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:7 | cmd:background
+data:["101413"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:11 | cmd:bgm
+data:["bgm/bgm_commu_drivingmyway"]
+
+id:34 | cmd:white_in
+data:["Null"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_23"]
+
+id:8 | cmd:print
+data:["ちとせ","（ヘッドホンで聴く爆音ロックって、"]
+
+id:15 | cmd:wait
+data:["65"]
+
+id:8 | cmd:print
+data:["ちとせ","こんな感じなんだ。"]
+
+id:15 | cmd:wait
+data:["55"]
+
+id:8 | cmd:print
+data:["ちとせ","\\nあは、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ちとせ","頭の中がぐちゃぐちゃになっちゃいそうで面白い♪）"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:40 | cmd:text_size
+data:["20"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_zapaan"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["謎の組織人A","『○×△□～～～～Shark ! ! ! 』"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_smokebomd_2"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["謎の組織人B","『～～～○×△□～～～Sniper !"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:8 | cmd:print
+data:["謎の組織人B","\\n○×△□～～～～～～Death Shark ! ! 』"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_spotlight"]
+
+id:8 | cmd:print
+data:["謎の組織人B"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_lion_1"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_bicycle_3"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cat_2"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_boin"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_dj_4"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_tumble_over"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_wow_3"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:40 | cmd:text_size
+data:["28"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_24"]
+
+id:8 | cmd:print
+data:["ちとせ","（ああ……"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["ちとせ","高まってきた……っ ! ! ）"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:33 | cmd:white_out
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:7 | cmd:background
+data:["8392"]
+
+id:2 | cmd:chara
+data:["238","L","95","2"]
+
+id:2 | cmd:chara
+data:["194","C","94","2"]
+
+id:2 | cmd:chara
+data:["307","R","93","2"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:34 | cmd:white_in
+data:["Null"]
+
+id:40 | cmd:text_size
+data:["46"]
+
+id:6 | cmd:focus
+data:["238:194:307"]
+
+id:14 | cmd:vo
+data:["voice_25"]
+
+id:5 | cmd:face
+data:["238","2","95"]
+
+id:5 | cmd:face
+data:["194","2","94"]
+
+id:5 | cmd:face
+data:["307","2","93"]
+
+id:45 | cmd:concent
+data:["194"]
+
+id:8 | cmd:print
+data:["3人","Yeah～～～ ! ! !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["913","LC","0","0"]
+
+id:2 | cmd:chara
+data:["74","RC","0","0"]
+
+id:20 | cmd:fadein
+data:["913:74"]
+
+id:40 | cmd:text_size
+data:["24"]
+
+id:11 | cmd:bgm
+data:["stop"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:106 | cmd:unknown
+data:["74:913"]
+
+id:8 | cmd:print
+data:["謎の組織人AB"," ! ？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cut_2"]
+
+id:35 | cmd:transition
+data:["arrow"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:7 | cmd:background
+data:["3611"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:11 | cmd:bgm
+data:["bgm/bgm_commu_gag"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_car_go"]
+
+id:36 | cmd:situation
+data:["カーチェイス中"]
+
+id:2 | cmd:chara
+data:["238","L","95","0"]
+
+id:2 | cmd:chara
+data:["194","C","94","3"]
+
+id:2 | cmd:chara
+data:["307","R","93","4"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["238:194:307"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_26"]
+
+id:5 | cmd:face
+data:["307","4","93"]
+
+id:8 | cmd:print
+data:["ちとせ","ねえ、"]
+
+id:27 | cmd:nod
+data:["307"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:52 | cmd:sweat_l
+data:["307"]
+
+id:8 | cmd:print
+data:["ちとせ","まだ追ってきてるよ ! !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["913","LC","0","0"]
+
+id:2 | cmd:chara
+data:["74","RC","0","0"]
+
+id:17 | cmd:in_R
+data:["913:74","30"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["謎の組織人たち","『Freeze ! "]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["謎の組織人たち","Freeze ! ! 』"]
+
+id:26 | cmd:pop
+data:["913"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["謎の組織人たち","\\n『○×△□～～～"]
+
+id:26 | cmd:pop
+data:["74"]
+
+id:15 | cmd:wait
+data:["5"]
+
+id:46 | cmd:find_l
+data:["74"]
+
+id:8 | cmd:print
+data:["謎の組織人たち","Sniper Death Shark ! ! ! 』"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:2 | cmd:chara
+data:["238","L","95","1"]
+
+id:2 | cmd:chara
+data:["194","C","94","3"]
+
+id:2 | cmd:chara
+data:["307","R","93","11"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["238:194:307"]
+
+id:6 | cmd:focus
+data:["238"]
+
+id:14 | cmd:vo
+data:["voice_27"]
+
+id:5 | cmd:face
+data:["238","1","95"]
+
+id:8 | cmd:print
+data:["夏樹","さすがにアタシでも聞き取れたぜ。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["238"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["夏樹","\\n"]
+
+id:5 | cmd:face
+data:["238","4","95"]
+
+id:8 | cmd:print
+data:["夏樹","やっぱり、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:46 | cmd:find_l
+data:["238"]
+
+id:8 | cmd:print
+data:["夏樹","スナイパーデスシャークって言ってるな。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["307"]
+
+id:14 | cmd:vo
+data:["voice_28"]
+
+id:5 | cmd:face
+data:["307","11","93"]
+
+id:8 | cmd:print
+data:["ちとせ","……っ、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["307","10","93"]
+
+id:8 | cmd:print
+data:["ちとせ","ごめんなさい。"]
+
+id:27 | cmd:nod
+data:["307"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちとせ","\\n私がシャークを魅了しちゃったばっかりに。"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:58 | cmd:drop_r
+data:["307"]
+
+id:8 | cmd:print
+data:["ちとせ"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["238"]
+
+id:14 | cmd:vo
+data:["voice_29"]
+
+id:5 | cmd:face
+data:["238","0","95"]
+
+id:46 | cmd:find_l
+data:["238"]
+
+id:8 | cmd:print
+data:["夏樹","チャームがあるなら誰だってそうするさ。"]
+
+id:15 | cmd:wait
+data:["65"]
+
+id:8 | cmd:print
+data:["夏樹","\\n"]
+
+id:5 | cmd:face
+data:["238","1","95"]
+
+id:8 | cmd:print
+data:["夏樹","使わない力は、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["238","0","95"]
+
+id:8 | cmd:print
+data:["夏樹","あっという間に錆びちまう。"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["238"]
+
+id:8 | cmd:print
+data:["夏樹"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["194"]
+
+id:14 | cmd:vo
+data:["voice_30"]
+
+id:5 | cmd:face
+data:["194","3","94"]
+
+id:8 | cmd:print
+data:["涼","けど……"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:53 | cmd:sweat_r
+data:["194"]
+
+id:8 | cmd:print
+data:["涼","このままじゃマズい。"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["涼","秒で追いつかれるぜッ !"]
+
+id:26 | cmd:pop
+data:["194"]
+
+id:8 | cmd:print
+data:["涼"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["238"]
+
+id:14 | cmd:vo
+data:["voice_31"]
+
+id:5 | cmd:face
+data:["238","1","95"]
+
+id:8 | cmd:print
+data:["夏樹","走るか死ぬか、"]
+
+id:15 | cmd:wait
+data:["55"]
+
+id:8 | cmd:print
+data:["夏樹","だな。"]
+
+id:27 | cmd:nod
+data:["238"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["238","0","95"]
+
+id:8 | cmd:print
+data:["夏樹","\\n……飛ばすぜ。"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:5 | cmd:face
+data:["238","2","95"]
+
+id:8 | cmd:print
+data:["夏樹","舌噛まないように、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["夏樹","口結んでな ! !"]
+
+id:45 | cmd:concent
+data:["238"]
+
+id:8 | cmd:print
+data:["夏樹"," "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_car_go"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_car_go"]
+
+id:18 | cmd:out_L
+data:["238:194:307","30"]
+
+id:15 | cmd:wait
+data:["80"]
+
+id:35 | cmd:transition
+data:["1"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:67 | cmd:fadeout_all
+data:["Null"]
+
+id:7 | cmd:background
+data:["3011"]
+
+id:2 | cmd:chara
+data:["308","C","0","0"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:11 | cmd:bgm
+data:["bgm/bgm_commu_regular"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","なんか今、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["{0}P","イヤな予感が……。"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["{0}P","\\n心配ない……"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["{0}P","よな？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["308"]
+
+id:14 | cmd:vo
+data:["voice_32"]
+
+id:5 | cmd:face
+data:["308","4","0"]
+
+id:8 | cmd:print
+data:["千夜","おい。"]
+
+id:27 | cmd:nod
+data:["308"]
+
+id:8 | cmd:print
+data:["千夜"," "]
+
+id:12 | cmd:touch
+data:["Null"]

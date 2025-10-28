@@ -1,0 +1,6 @@
+Game_name:CGSS_Test1;
+Game_key:0f87dstRg;
+Title_img:Bg_1002.jpg;
+Title_bgm:BGM Commu Onegai A.mp3;
+Game_Logo:WebGalEnter.png;
+Enable_Appreciation:true;

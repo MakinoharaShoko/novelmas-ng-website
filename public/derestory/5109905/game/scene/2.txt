@@ -1,0 +1,3 @@
+changeBg:Bg_1002.jpg;
+changeFigure:島村卯月/characters/group_93/character_12.png;
+岛村卯月:制作人，快来;
