@@ -1,0 +1,1 @@
+changeScene:storydata_1000001.webgal.txt;

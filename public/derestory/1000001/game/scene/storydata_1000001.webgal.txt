@@ -1,0 +1,2951 @@
+setVar:name=Producer;
+; id:0 | cmd:title
+; data:["Stage, We Climb the Stairs."]
+; id:1 | cmd:outline
+; data:["事務所を訪れた卯月、未央、凛の三人は、\\n社内ステージでPVを撮影することになった。\\nアイドルに最も大切なことを教えられた一同は、\\nプロデューサーに導かれ、きらりや杏とともに、\\nアイドルとしての階段を上り始めたのだった。"]
+changeBg:Bg_c3011.png -next;
+bgm:bgm_commu_regular.mp3;
+; id:61 | cmd:title_telop
+; data:["1000001"]
+; id:36 | cmd:situation
+; data:["事務所"]
+wait:167;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+卯月:プロデューサーさん !|おはようございます !  -story_1000001_001.mp3 -notend -wait=1500;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:島村卯月ですっ ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+凛:おはようございます。 -story_1000001_002.mp3 -notend -wait=1333;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:渋谷…… -concat -notend -wait=1500;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:渋谷凛です。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+未央:おはようございます !  -story_1000001_003.mp3 -notend -wait=667;
+; id:26 | cmd:pop
+; data:["234"]
+未央:本田未央でーっす☆ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+{name}P:おはよう。;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:プロデューサーさん ! | -story_1000001_004.mp3 -notend -wait=1000;
+; id:48 | cmd:laugh_l
+; data:["101"]
+卯月:あらためて、 -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:今日からよろしくお願いしますね ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:よろしくねっ !  -story_1000001_005.mp3 -notend -wait=1000;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:いやー、 -concat -notend -wait=667;
+未央:しかしいい事務所だね ! | -concat -notend -wait=1333;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:ここ以外の部屋もすごいんでしょ？| -concat -notend -wait=2000;
+; id:48 | cmd:laugh_l
+; data:["234"]
+未央:レッスンルームとか、 -concat -notend -wait=1000;
+未央:スタジオとか !  -concat -notend -wait=333;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["234"]
+未央:はやく見てみたいなー !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:私はまだちょっと -story_1000001_006.mp3 -notend -wait=667;
+; id:27 | cmd:nod
+; data:["167"]
+凛:落ち着かないけど……。| -concat -notend -wait=1667;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:自分がアイドルになった実感も、 -concat -notend -wait=1333;
+凛:まだないし。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:たしかに、私も自分がアイドルになった実感、 -story_1000001_007.mp3 -notend -wait=3000;
+; id:52 | cmd:sweat_l
+; data:["101"]
+; id:27 | cmd:nod
+; data:["101"]
+卯月:まだないです……。| -concat -notend -wait=2000;
+卯月:初めてのステージは、 -concat -notend -wait=1000;
+卯月:ドキドキしすぎて、 -concat -notend -wait=1000;
+卯月:夢みたいでしたし……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:私もだけど、実感ってそのうちにわいてくるものじゃないの？| -story_1000001_008.mp3 -notend -wait=3334;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["234"]
+未央:それより今は -concat -notend -wait=333;
+; id:26 | cmd:pop
+; data:["234"]
+未央:早くお仕事したいな !| -concat -notend -wait=1667;
+未央:LIVEとか、 -concat -notend -wait=667;
+未央:CDのレコーディングとか !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:私も、たくさんお仕事したいです !| -story_1000001_009.mp3 -notend -wait=2667;
+changeFigure:chara_101/costume_00/chara_101_00_face_01.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:レッスンは養成所で -concat -notend -wait=667;
+卯月:たっくさんしてきましたから、| -concat -notend -wait=1667;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:ダンスのステップは -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:自信ありですよ ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+凛:2人とも、やる気なんだ。| -story_1000001_010.mp3 -notend -wait=2667;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:まぁ、 -concat -notend -wait=1333;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:私もやるなら -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["167"]
+凛:もっとちゃんとやりたいと思うけど。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:お～っ？ しぶりんって負けず嫌いだね ! | -story_1000001_011.mp3 -notend -wait=2334;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:じゃあ、 -concat -notend -wait=667;
+未央:一緒にあのアイドルの星目指して -concat -notend -wait=1667;
+; id:26 | cmd:pop
+; data:["234"]
+未央:がんばろっか !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+凛:べつに、 -story_1000001_012.mp3 -notend -wait=333;
+; id:52 | cmd:sweat_l
+; data:["167"]
+; id:27 | cmd:nod
+; data:["167"]
+凛:負けず嫌いとかじゃないけど……。| -concat -notend -wait=1667;
+changeFigure:chara_167/costume_00/chara_167_00_face_04.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:だいたいどこにあるの、 -concat -notend -wait=1000;
+凛:そんな星……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_01.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:なんか、 -story_1000001_013.mp3 -notend -wait=500;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:55 | cmd:question_r
+; data:["234"]
+未央:右上あたり？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["101"]
+卯月:あははは……。 -story_1000001_014.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:はぁ……。| -story_1000001_015.mp3 -notend -wait=1333;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["167"]
+凛:ところでプロデューサー、 -concat -notend -wait=1333;
+凛:私たちは -concat -notend -wait=667;
+凛:このあとどうしたらいいの？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:そうそう ! 気になってた !  -story_1000001_016.mp3 -notend -wait=666;
+; id:26 | cmd:pop
+; data:["234"]
+未央:今後のスケジュール !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:レッスンですか？|私、レッスン頑張るのなら、 -story_1000001_017.mp3 -notend -wait=2667;
+; id:26 | cmd:pop
+; data:["101"]
+卯月:得意です !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+　:小さいLIVEステージの予定があることを伝えた;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_05.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:ふむふむ……。 -story_1000001_018.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_05.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["101"]
+卯月:わぁ……。|また、 -story_1000001_019.mp3 -notend -wait=2000;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:ステージで歌えるんですね !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+; id:47 | cmd:find_r
+; data:["2"]
+ちひろ:じゃあ、ここからは私が説明しますね。|みなさんには、まずは宣材用の -story_1000001_020.mp3 -notend -wait=4667;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:PV撮影をしてもらいます。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+changeFigure:chara_002/costume_00/chara_002_00_face_02.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:社内にあるステージセットで歌ってもらいますからね !| -story_1000001_021.mp3 -notend -wait=1667;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:頑張ってください !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_03.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:なーんだ、 -story_1000001_022.mp3 -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["234"]
+; id:58 | cmd:drop_r
+; data:["234"]
+未央:お客さんはいないのかぁ……。| -concat -notend -wait=2000;
+未央:残念だなぁ～。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:まぁ、新人だし、 -story_1000001_023.mp3 -notend -wait=1333;
+; id:27 | cmd:nod
+; data:["167"]
+凛:そういうものなんじゃないの？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:またステージに立てるってだけで嬉しいです !|凛ちゃん、未央ちゃん、 -story_1000001_024.mp3 -notend -wait=4334;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:一緒に頑張りましょう !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+　:まずはステージの前にレッスンなどがあると伝えた;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+ちひろ:それでは、さっそくですが -story_1000001_025.mp3 -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:レッスンルームへ移動しましょう !| -concat -notend -wait=1000;
+; id:47 | cmd:find_r
+; data:["2"]
+ちひろ:みなさん、 -concat -notend -wait=667;
+ちひろ:ついてきてください !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+playEffect:se/se_commu_cut_2.mp3;
+; id:35 | cmd:transition
+; data:["arrow"]
+; id:31 | cmd:black_out
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeBg:Bg_c3134.png -next;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:32 | cmd:black_in
+; data:["Null"]
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+未央:いやー、 -story_1000001_026.mp3 -notend -wait=833;
+; id:27 | cmd:nod
+; data:["234"]
+未央:しかし広くて大きい事務所だねぇ……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:こんなに広いと、 -story_1000001_027.mp3 -notend -wait=1167;
+; id:52 | cmd:sweat_l
+; data:["101"]
+; id:27 | cmd:nod
+; data:["101"]
+卯月:迷子になっちゃったりしそうですね。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+凛:さすがに、そんなことはないんじゃない？ -story_1000001_028.mp3 -wait=1000;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_face_02.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["2"]
+ちひろ:うふふっ。普通は、 -story_1000001_029.mp3 -notend -wait=1667;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:そう思いますよね。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_03.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:ってことは、 -story_1000001_030.mp3 -notend -wait=833;
+; id:27 | cmd:nod
+; data:["167"]
+凛:あるんだ……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:えぇ。|うちのプロダクションには、 -story_1000001_031.mp3 -notend -wait=2000;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:小さい子なんかもいますからね。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["234"]
+未央:こんなに広い建物でかくれんぼとかしたら、 -story_1000001_032.mp3 -notend -wait=1333;
+; id:26 | cmd:pop
+; data:["234"]
+未央:楽しそうだよね !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+changeFigure:chara_002/costume_00/chara_002_00_face_03.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:プロデューサーさんを困らせちゃ、 -story_1000001_033.mp3 -notend -wait=1000;
+; id:52 | cmd:sweat_l
+; data:["2"]
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:ダメですよ !| -concat -notend -wait=1000;
+ちひろ:さぁ、 -concat -notend -wait=333;
+ちひろ:つきました !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+playEffect:se/se_commu_cut_2.mp3;
+; id:35 | cmd:transition
+; data:["arrow"]
+; id:31 | cmd:black_out
+; data:["Null"]
+; id:62 | cmd:window_visible
+; data:["false"]
+changeBg:Bg_c3241.png -next;
+wait:667;
+; id:32 | cmd:black_in
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:ここは、衣装室です。|みなさんの衣装をフィッティングするときは -story_1000001_034.mp3 -notend -wait=2667;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:ここを使うんですよ。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:わぁ…… -story_1000001_035.mp3 -notend -wait=1667;
+; id:48 | cmd:laugh_l
+; data:["101"]
+卯月:すてきな衣装がたくさん…… !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_02.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:ふぅん……すごいね。| -story_1000001_036.mp3 -notend -wait=2500;
+; id:27 | cmd:nod
+; data:["167"]
+凛:いろんな衣装が置いてあるんだ。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:46 | cmd:find_l
+; data:["234"]
+未央:おぉっ？ しぶりんが興味を示したのは -story_1000001_037.mp3 -notend -wait=1833;
+; id:27 | cmd:nod
+; data:["234"]
+未央:こっちのフリフリかな？ -concat -notend;
+; id:54 | cmd:question_l
+; data:["234"]
+未央:| -concat -notend -wait=1333;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:それとも -concat -notend -wait=667;
+未央:こっちのセクシータイプかな？ -concat;
+; id:55 | cmd:question_r
+; data:["234"]
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_04.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["167"]
+凛:いや、 -story_1000001_038.mp3 -notend -wait=333;
+; id:27 | cmd:nod
+; data:["167"]
+; id:52 | cmd:sweat_l
+; data:["167"]
+凛:どっちでもないけど……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_04.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:んもう ! つれないなー。| -story_1000001_039.mp3 -notend -wait=1667;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["234"]
+未央:ねぇねぇプロデューサー、 -concat -notend -wait=667;
+未央:質問っ !| -concat -notend -wait=667;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["234"]
+未央:しぶりんが着たら -concat -notend -wait=1000;
+未央:似合うと思うのはどっち？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+choose:フリフリ:1|セクシー:2;
+label:1;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_03.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:46 | cmd:find_l
+; data:["167"]
+凛:えっ……。|こういうのは、卯月の方が -story_1000001_040.mp3 -notend -wait=2666;
+; id:27 | cmd:nod
+; data:["167"]
+; id:52 | cmd:sweat_l
+; data:["167"]
+凛:似合うと思うけど……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["101"]
+卯月:私ですか？  -story_1000001_041.mp3 -notend -wait=1333;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:うーん、 -concat -notend -wait=1333;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:そうですね、| -concat -notend -wait=2667;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["101"]
+卯月:フリフリのお洋服も -concat -notend -wait=667;
+; id:26 | cmd:pop
+; data:["101"]
+卯月:カワイイなって思います !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:んもー、しぶりんったらしまむーに押し付けて～。| -story_1000001_042.mp3 -notend -wait=2334;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["234"]
+; id:47 | cmd:find_r
+; data:["234"]
+未央:素直じゃないんだからー !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+jumpLabel:3;
+label:2;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_02.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:ふーん。| -story_1000001_043.mp3 -notend -wait=1667;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:プロデューサーって、 -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["167"]
+凛:そういう趣味なんだ。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:おっ？ 意外や意外、 -story_1000001_044.mp3 -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["234"]
+未央:しぶりんも乗り気かな？  -concat -notend;
+; id:55 | cmd:question_r
+; data:["234"]
+wait:1333;
+未央:かなー？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_04.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:いや、そういう訳じゃ…… !  -story_1000001_045.mp3 -wait=333;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:凛ちゃん、 -story_1000001_046.mp3 -notend -wait=667;
+; id:48 | cmd:laugh_l
+; data:["101"]
+卯月:今度着てみてくださいねっ !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_04.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["167"]
+凛:だから違うってば…… ! -story_1000001_047.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+jumpLabel:3;
+label:3;
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+changeFigure:chara_252/costume_00/chara_252_00_base.png -id=fig-252 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-252 -duration=0 -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-252 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-252 -duration=0 -next;
+; id:46 | cmd:find_l
+; data:["252"]
+ルーキートレーナー:あっ、ちひろさん ! それに、プロデューサーさん !|みなさんも、 -story_1000001_048.mp3 -notend -wait=3000;
+; id:27 | cmd:nod
+; data:["252"]
+ルーキートレーナー:お疲れさまです～っ ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+ちひろ:お疲れさまでーす。 -story_1000001_049.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+未央・卯月・凛:お疲れさまです !  -story_1000001_050.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-252 -duration=300 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-252 -duration=0 -next;
+changeFigure:chara_252/costume_00/chara_252_00_face_03.png -id=fig-252 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-252 -duration=0 -next;
+; id:54 | cmd:question_l
+; data:["252"]
+ルーキートレーナー:あれ？ |この時間ってフィッティングの予定、 -story_1000001_051.mp3 -notend -wait=2333;
+; id:27 | cmd:nod
+; data:["252"]
+ルーキートレーナー:入ってましたっけ……？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_002/costume_00/chara_002_00_face_03.png -id=fig-002 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:あぁ、違うんです。|今はみんなで見学してるところなんですよ。 -story_1000001_052.mp3 -wait=2333;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["101"]
+卯月:お邪魔してますっ !  -story_1000001_053.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-252 -duration=300 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-252 -duration=0 -next;
+changeFigure:chara_252/costume_00/chara_252_00_face_02.png -id=fig-252 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-252 -duration=0 -next;
+ルーキートレーナー:あ、な～んだ、 -story_1000001_054.mp3 -notend -wait=666;
+; id:27 | cmd:nod
+; data:["252"]
+ルーキートレーナー:そうだったんですね ! | -concat -notend -wait=1000;
+; id:48 | cmd:laugh_l
+; data:["252"]
+ルーキートレーナー:じゃあ、 -concat -notend -wait=333;
+ルーキートレーナー:ごゆっくりどうぞ。 | -concat -notend -wait=1333;
+changeFigure:chara_252/costume_00/chara_252_00_base.png -id=fig-252 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-252 -duration=0 -next;
+ルーキートレーナー:私は用事がありますので、 -concat -notend -wait=1333;
+ルーキートレーナー:これで。  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+; id:19 | cmd:out_R
+; data:["252","60"]
+wait:333;
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:お疲れさまでした !  -story_1000001_055.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+凛:ちひろさん、 -story_1000001_056.mp3 -notend -wait=667;
+; id:55 | cmd:question_r
+; data:["167"]
+凛:今の人は？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:今のは新人のトレーナーちゃんですよ。| -story_1000001_057.mp3 -notend -wait=2334;
+changeFigure:chara_002/costume_00/chara_002_00_face_02.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:みんなのお手伝いをしてくれるんです。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+凛:ふぅん…… -story_1000001_058.mp3 -notend -wait=667;
+; id:27 | cmd:nod
+; data:["167"]
+凛:そうなんだ。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+ちひろ:さぁ、 -story_1000001_059.mp3 -notend -wait=333;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:次の場所に行きましょうか ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+playEffect:se/se_commu_cut_2.mp3;
+; id:35 | cmd:transition
+; data:["arrow"]
+; id:31 | cmd:black_out
+; data:["Null"]
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+changeBg:Bg_c3041.png -next;
+; id:32 | cmd:black_in
+; data:["Null"]
+wait:667;
+; id:62 | cmd:window_visible
+; data:["true"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:46 | cmd:find_l
+; data:["234"]
+未央:おー、レッスンスタジオ !  -story_1000001_060.mp3 -notend -wait=1667;
+; id:26 | cmd:pop
+; data:["234"]
+未央:ひろーい !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+ちひろ:ここがレッスンスタジオです。|みなさんには、LIVEステージに立つ前に、 -story_1000001_061.mp3 -notend -wait=3334;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:まずはレッスンしてもらいます ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_002/costume_00/chara_002_00_face_01.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:いいですか、 -story_1000001_062.mp3 -notend -wait=1000;
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["2"]
+ちひろ:LIVEの前は -concat -notend -wait=667;
+ちひろ:レッスンと特訓 ! | -concat -notend -wait=1333;
+ちひろ:基本ですから、 -concat -notend -wait=1000;
+ちひろ:ちゃんと覚えておいてくださいね !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["101"]
+卯月:えぇっ !  -story_1000001_063.mp3 -notend -wait=500;
+; id:27 | cmd:nod
+; data:["101"]
+; id:55 | cmd:question_r
+; data:["101"]
+卯月:これからですか？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+ちひろ:えぇ !  -story_1000001_064.mp3 -notend -wait=1000;
+changeFigure:chara_002/costume_00/chara_002_00_face_02.png -id=fig-002 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:ねっ、 -concat -notend -wait=333;
+ちひろ:プロデューサーさん !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+choose:みんななら大丈夫だ:4|頑張れ:4;
+label:4;
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:うんうん ! 大丈夫、頑張ろう ! | -story_1000001_065.mp3 -notend -wait=1667;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:しぶりん、 -concat -notend -wait=667;
+未央:しまむー !  -concat -notend -wait=667;
+未央:特訓だよ特訓 ! -concat;
+; id:24 | cmd:jump
+; data:["234","2"]
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+凛:まぁ、 -story_1000001_066.mp3 -notend -wait=667;
+; id:27 | cmd:nod
+; data:["167"]
+凛:まずはやってみるけど……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:はい ! 2人とも、 -story_1000001_067.mp3 -notend -wait=1333;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:一緒に頑張りましょう ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+changeFigure:chara_282/costume_00/chara_282_00_base.png -id=fig-282 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:みんな、 -story_1000001_068.mp3 -notend -wait=667;
+; id:26 | cmd:pop
+; data:["282"]
+ベテラントレーナー:気合は十分みたいだな !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+ちひろ:トレーナーさん、あとはよろしくお願いしますね !  -story_1000001_069.mp3 -wait=1334;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-282 -duration=0 -next;
+changeFigure:chara_282/costume_00/chara_282_00_face_01.png -id=fig-282 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:あぁ、任せろ ! | -story_1000001_070.mp3 -notend -wait=2000;
+changeFigure:chara_282/costume_00/chara_282_00_base.png -id=fig-282 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:さぁお前たち、 -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["282"]
+ベテラントレーナー:私がトレーニングしてやる ! | -concat -notend -wait=1000;
+; id:26 | cmd:pop
+; data:["282"]
+; id:45 | cmd:concent
+; data:["282"]
+ベテラントレーナー:厳しくいくぞ !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_03.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:25 | cmd:shake
+; data:["234"]
+未央:ひょえ～ !  -story_1000001_071.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+; id:33 | cmd:white_out
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_99/chara_101_99_face_03.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:34 | cmd:white_in
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["101"]
+卯月:け、 -story_1000001_072.mp3 -notend -wait=667;
+; id:53 | cmd:sweat_r
+; data:["101"]
+卯月:結構 -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:ハードです～ !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_282/costume_00/chara_282_00_face_04.png -id=fig-282 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:島村 !| -story_1000001_073.mp3 -notend -wait=333;
+; id:45 | cmd:concent
+; data:["282"]
+ベテラントレーナー:もたつくな !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+; id:33 | cmd:white_out
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+wait:667;
+changeFigure:chara_282/costume_00/chara_282_00_face_04.png -id=fig-282 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+; id:34 | cmd:white_in
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:渋谷 !| -story_1000001_074.mp3 -notend -wait=667;
+; id:45 | cmd:concent
+; data:["282"]
+ベテラントレーナー:動きが硬い !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_167/costume_99/chara_167_99_base.png -id=fig-167 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+changeFigure:chara_167/costume_99/chara_167_99_base.png -id=fig-167 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:もう一回、 -story_1000001_075.mp3 -notend -wait=333;
+; id:27 | cmd:nod
+; data:["167"]
+凛:お願いします !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+; id:33 | cmd:white_out
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_234/costume_99/chara_234_99_base.png -id=fig-234 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:34 | cmd:white_in
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+未央:5、6、ここでターン !  -story_1000001_076.mp3 -notend -wait=1333;
+; id:46 | cmd:find_l
+; data:["234"]
+未央:決まった～ !  -concat -notend -wait=333;
+changeFigure:chara_234/costume_99/chara_234_99_face_02.png -id=fig-234 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:26 | cmd:pop
+; data:["234"]
+未央:いぇーいっ !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_282/costume_00/chara_282_00_face_04.png -id=fig-282 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:本田 ! | -story_1000001_077.mp3 -notend -wait=333;
+; id:45 | cmd:concent
+; data:["282"]
+ベテラントレーナー:最後まで気を抜くな !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_234/costume_99/chara_234_99_face_03.png -id=fig-234 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["234"]
+未央:す、 -story_1000001_078.mp3 -notend -wait=333;
+; id:52 | cmd:sweat_l
+; data:["234"]
+未央:すみませんでしたっ !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+; id:31 | cmd:black_out
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_282/costume_00/chara_282_00_base.png -id=fig-282 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+wait:667;
+; id:32 | cmd:black_in
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:ま、初めてならこんなものか。| -story_1000001_079.mp3 -notend -wait=2667;
+changeFigure:chara_282/costume_00/chara_282_00_face_06.png -id=fig-282 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:お前たち、 -concat -notend -wait=1000;
+ベテラントレーナー:ギリギリ及第点だ。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_99/chara_101_99_face_02.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_167/costume_99/chara_167_99_face_02.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_99/chara_234_99_face_02.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+未央・卯月・凛:やった～ !  -story_1000001_080.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_282/costume_00/chara_282_00_face_01.png -id=fig-282 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:だが、 -story_1000001_081.mp3 -notend -wait=667;
+; id:27 | cmd:nod
+; data:["282"]
+ベテラントレーナー:お前たちがステージに立つには、| -concat -notend -wait=1667;
+changeFigure:chara_282/costume_00/chara_282_00_base.png -id=fig-282 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:まだ大事なものが欠けているようだな。| -concat -notend -wait=2000;
+changeFigure:chara_282/costume_00/chara_282_00_face_03.png -id=fig-282 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["282"]
+ベテラントレーナー:わかるか？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_99/chara_101_99_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_167/costume_99/chara_167_99_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_99/chara_234_99_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+changeFigure:chara_101/costume_99/chara_101_99_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:54 | cmd:question_l
+; data:["101"]
+卯月:大事なもの……？ -story_1000001_082.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+changeFigure:chara_234/costume_99/chara_234_99_face_03.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:57 | cmd:drop_l
+; data:["234"]
+未央:ん～……なんだろう？ しぶりん、 -story_1000001_083.mp3 -notend -wait=2333;
+; id:55 | cmd:question_r
+; data:["234"]
+未央:わかる？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+changeFigure:chara_167/costume_99/chara_167_99_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:全然、想像もつかない。| -story_1000001_084.mp3 -notend -wait=2667;
+changeFigure:chara_167/costume_99/chara_167_99_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:踊りはなんとか覚えたし、 -concat -notend -wait=2000;
+凛:歌も -concat -notend -wait=1333;
+凛:せいぜい -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["167"]
+凛:全力で歌うくらいしか……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+changeFigure:chara_282/costume_00/chara_282_00_base.png -id=fig-282 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=0 -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-282 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-282 -duration=0 -next;
+ベテラントレーナー:プロデューサー、彼女たちにとって一番大事なもの、| -story_1000001_085.mp3 -notend -wait=3333;
+; id:48 | cmd:laugh_l
+; data:["282"]
+ベテラントレーナー:ステージに立つときに -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["282"]
+ベテラントレーナー:教えてやってください。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+changeFigure:chara_002/costume_00/chara_002_00_face_02.png -id=fig-002 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:みんな、準備はいいみたいですね ! | -story_1000001_086.mp3 -notend -wait=1666;
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+ちひろ:じゃあ、 -concat -notend -wait=333;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:ステージまで移動しましょう ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+playEffect:se/se_commu_cut_2.mp3;
+; id:35 | cmd:transition
+; data:["arrow"]
+; id:31 | cmd:black_out
+; data:["Null"]
+; id:62 | cmd:window_visible
+; data:["false"]
+changeBg:Bg_c3504.png -next;
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+; id:32 | cmd:black_in
+; data:["Null"]
+wait:1000;
+; id:36 | cmd:situation
+; data:["LIVE前"]
+changeFigure:chara_134/costume_00/chara_134_00_base.png -id=fig-134 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_base.png -id=fig-271 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_134/costume_00/chara_134_00_face_06.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:はぁ～……。|杏がなんで -story_1000001_087.mp3 -notend -wait=1667;
+; id:27 | cmd:nod
+; data:["134"]
+杏:こんなことしなきゃいけないんだ……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-271 -duration=0 -next;
+きらり:杏ちゃん、大切なステージなんだから、 -story_1000001_088.mp3 -notend -wait=2666;
+; id:27 | cmd:nod
+; data:["271"]
+きらり:がんばろぉ？| -concat -notend -wait=667;
+changeFigure:chara_271/costume_00/chara_271_00_face_02.png -id=fig-271 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:ほら、 -concat -notend -wait=667;
+きらり:ハピハピキャンディ、 -concat -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["271"]
+; id:50 | cmd:chord_l
+; data:["271"]
+きらり:あげるから～。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_134/costume_00/chara_134_00_face_01.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:はむ……。| -story_1000001_089.mp3 -notend -wait=1000;
+changeFigure:chara_134/costume_00/chara_134_00_base.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:はぁ、 -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["134"]
+杏:仕方ないなー。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+changeFigure:chara_002/costume_00/chara_002_00_base.png -id=fig-002 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-002 -duration=0 -next;
+; id:16 | cmd:in_L
+; data:["2","70"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+ちひろ:杏ちゃん、きらりちゃん、 -story_1000001_090.mp3 -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["2"]
+ちひろ:お待たせしました !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-271 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_base.png -id=fig-271 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:ちひろさん、Pちゃん、 -story_1000001_091.mp3 -notend -wait=1334;
+; id:43 | cmd:flower_y
+; data:["271"]
+きらり:おはようございまーす ! | -concat -notend -wait=2000;
+changeFigure:chara_271/costume_00/chara_271_00_face_02.png -id=fig-271 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:みんな、 -concat -notend -wait=333;
+; id:27 | cmd:nod
+; data:["271"]
+きらり:おっすおっすぅ☆  -concat -notend -wait=667;
+; id:26 | cmd:pop
+; data:["271"]
+きらり:今日はよろしくにぃ☆ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_134/costume_00/chara_134_00_face_01.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:なんでもいいからさくっと終わらせて、寝たい……。 -story_1000001_092.mp3 -wait=2000;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+; id:46 | cmd:find_l
+; data:["101"]
+卯月:杏ちゃんときらりちゃん ! | -story_1000001_093.mp3 -notend -wait=1000;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:一緒のステージなんですね !  -concat -notend -wait=1667;
+卯月:よろしくお願いします ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:お2人さんとも、 -story_1000001_094.mp3 -notend -wait=333;
+; id:26 | cmd:pop
+; data:["234"]
+未央:よろしくぅ ! | -concat -notend -wait=1000;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:ところでプロデューサー、 -concat -notend -wait=1333;
+未央:さっきトレーナーさんが言ってた話、| -concat -notend -wait=1333;
+; id:26 | cmd:pop
+; data:["234"]
+未央:答えを教えてほしいなーっ ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:たしかに、 -story_1000001_095.mp3 -notend -wait=667;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:気になるね……。| -concat -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["167"]
+凛:ステージで大事なモノって…… -concat -notend -wait=1333;
+凛:なに？ -concat;
+; id:54 | cmd:question_l
+; data:["167"]
+; id:12 | cmd:touch
+; data:["Null"]
+choose:笑顔が大事だ:5;
+label:5;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:笑顔…… -story_1000001_096.mp3 -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["101"]
+; id:55 | cmd:question_r
+; data:["101"]
+卯月:ですか？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_03.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:そっか、さっきはレッスンについてくのに -story_1000001_097.mp3 -notend -wait=2666;
+; id:27 | cmd:nod
+; data:["234"]
+未央:必死だったんだ…… -concat -notend -wait=667;
+未央:私。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:一番大事なのは、笑顔……か。 -story_1000001_098.mp3 -wait=3000;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_134/costume_00/chara_134_00_base.png -id=fig-134 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_base.png -id=fig-271 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_134/costume_00/chara_134_00_face_01.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:営業スマイルか…… -story_1000001_099.mp3 -notend -wait=2000;
+; id:48 | cmd:laugh_l
+; data:["134"]
+changeFigure:chara_134/costume_00/chara_134_00_face_01.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:お安いご用だね。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-271 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_face_02.png -id=fig-271 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:きっと、ステージは -story_1000001_100.mp3 -notend -wait=1167;
+; id:27 | cmd:nod
+; data:["271"]
+きらり:とっても楽しいから、| -concat -notend -wait=1000;
+きらり:ハピハピで -concat -notend -wait=1000;
+きらり:スマイルいっぱいに -concat -notend -wait=667;
+; id:26 | cmd:pop
+; data:["271"]
+; id:43 | cmd:flower_y
+; data:["271"]
+きらり:なれちゃうにぃ !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:うん !  -story_1000001_101.mp3 -notend -wait=1333;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:凛ちゃん、 -concat -notend -wait=333;
+卯月:未央ちゃん ! | -concat -notend -wait=667;
+卯月:杏ちゃん、 -concat -notend -wait=333;
+卯月:きらりちゃん ! | -concat -notend -wait=1000;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:ステージは笑顔で -concat -notend -wait=333;
+; id:26 | cmd:pop
+; data:["101"]
+卯月:頑張りましょう ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_02.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:……うん ! -story_1000001_102.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_134/costume_00/chara_134_00_face_01.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:仕方ないなー。 -story_1000001_103.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-271 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_face_02.png -id=fig-271 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:おっすおっす ! -story_1000001_104.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:じゃー、いっちょステージの上でも笑顔で、 -story_1000001_105.mp3 -notend -wait=1667;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:26 | cmd:pop
+; data:["234"]
+; id:43 | cmd:flower_y
+; data:["234"]
+未央:やっちゃいますかー !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+playEffect:se/se_commu_cut_1.mp3;
+; id:35 | cmd:transition
+; data:["Null"]
+; id:33 | cmd:white_out
+; data:["Null"]
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeBg:Bg_c3504.png -next;
+; id:59 | cmd:live
+; data:["29","1","100001","300001","200001","100027","300033"]
+; id:33 | cmd:white_out
+; data:["1","0"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+wait:1000;
+; id:34 | cmd:white_in
+; data:["Null"]
+; id:36 | cmd:situation
+; data:["LIVE後"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:はぁ……。 -story_1000001_106.mp3 -notend -wait=1667;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:終わっちゃった……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:やっぱり、 -story_1000001_107.mp3 -notend -wait=667;
+; id:48 | cmd:laugh_l
+; data:["234"]
+未央:LIVEっていいなぁ ! | -concat -notend -wait=1333;
+未央:ねぇ、 -concat -notend -wait=333;
+未央:みんなそう思うよね !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+changeFigure:chara_134/costume_00/chara_134_00_base.png -id=fig-134 -right -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_base.png -id=fig-271 -left -transform={"brightness":0.7} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_134/costume_00/chara_134_00_face_03.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+; id:58 | cmd:drop_r
+; data:["134"]
+杏:疲れた……。|双葉杏、 -story_1000001_108.mp3 -notend -wait=3000;
+changeFigure:chara_134/costume_00/chara_134_00_face_01.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["134"]
+杏:もう引退します……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-271 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_face_04.png -id=fig-271 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:こーら。杏ちゃん、 -story_1000001_109.mp3 -notend -wait=1667;
+; id:27 | cmd:nod
+; data:["271"]
+きらり:だーめ ! | -concat -notend -wait=1000;
+changeFigure:chara_271/costume_00/chara_271_00_base.png -id=fig-271 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:ステージは楽しかったでしょ♪ -concat;
+; id:50 | cmd:chord_l
+; data:["271"]
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:うん…… -story_1000001_110.mp3 -notend -wait=667;
+changeFigure:chara_167/costume_00/chara_167_00_face_03.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["167"]
+凛:でも……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:お客さんがいないLIVEって、 -story_1000001_111.mp3 -notend -wait=2333;
+; id:52 | cmd:sweat_l
+; data:["101"]
+卯月:なんだか……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_03.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:やっぱり、 -story_1000001_112.mp3 -notend -wait=667;
+; id:27 | cmd:nod
+; data:["234"]
+未央:味気ないよね。 -concat -notend -wait=1000;
+changeFigure:chara_234/costume_00/chara_234_00_face_04.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:分かってはいたけどさ……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:でも私、 -story_1000001_113.mp3 -notend -wait=1333;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:それでも良かったって思います ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:54 | cmd:question_l
+; data:["167"]
+凛:卯月？ -story_1000001_114.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:私のファンは、 -story_1000001_115.mp3 -notend -wait=667;
+changeFigure:chara_101/costume_00/chara_101_00_face_05.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:26 | cmd:pop
+; data:["101"]
+; id:44 | cmd:flower_r
+; data:["101"]
+卯月:ちゃんと観ていてくれましたから !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+; id:54 | cmd:question_l
+; data:["134"]
+杏:……？ -story_1000001_116.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+; id:55 | cmd:question_r
+; data:["167"]
+凛:……？ -story_1000001_117.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:46 | cmd:find_l
+; data:["234"]
+未央:あぁ、そっか ! そうだね !  -story_1000001_118.mp3 -wait=1000;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+凛:どういうこと？ -story_1000001_119.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_05.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:私を見つけ出してくれた人、 -story_1000001_120.mp3 -notend -wait=2000;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:私をアイドルにしてくれた人……| -concat -notend -wait=2667;
+changeFigure:chara_101/costume_00/chara_101_00_face_01.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:そして、 -concat -notend -wait=667;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:私の最初のファンになってくれた人 ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_02.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:…… !  -story_1000001_121.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-271 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_base.png -id=fig-271 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:……うん ! -story_1000001_122.mp3 -wait=667;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:プロデューサーさん !  -story_1000001_123.mp3 -notend -wait=1000;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:私たちのステージ、 -concat -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:どうでしたか？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+choose:最高だった:6;
+label:6;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:50 | cmd:chord_l
+; data:["234"]
+未央:へへっ !  -story_1000001_124.mp3 -notend -wait=333;
+; id:26 | cmd:pop
+; data:["234"]
+未央:そりゃそうよ !| -concat -notend -wait=1000;
+未央:未来のトップアイドルたち…… -concat -notend -wait=2000;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:予定、 -concat -notend -wait=667;
+未央:のステージを、| -concat -notend -wait=333;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:26 | cmd:pop
+; data:["234"]
+未央:独り占めしたんだからね !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_02.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["167"]
+凛:ふふっ。 -story_1000001_125.mp3 -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["167"]
+凛:そっか……| -concat -notend -wait=1333;
+changeFigure:chara_167/costume_00/chara_167_00_face_01.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:まだ1人だけど、 -concat -notend -wait=2333;
+凛:私たちにも -concat -notend -wait=1333;
+changeFigure:chara_167/costume_00/chara_167_00_face_02.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:ファンがいるんだ。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:うん !  -story_1000001_126.mp3 -notend -wait=1333;
+changeFigure:chara_101/costume_00/chara_101_00_base.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:凛ちゃん、 -concat -notend -wait=333;
+卯月:未央ちゃん、 -concat -notend -wait=667;
+卯月:杏ちゃん、 -concat -notend -wait=333;
+卯月:きらりちゃん ! | -concat -notend -wait=667;
+changeFigure:chara_101/costume_00/chara_101_00_face_05.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:それとプロデューサーさん ! | -concat -notend -wait=1333;
+卯月:ありがとうございました !  -concat -notend -wait=1667;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:私、 -concat -notend -wait=667;
+; id:26 | cmd:pop
+; data:["101"]
+卯月:すっごく楽しかったです !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=300 -next;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-271 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_base.png -id=fig-271 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+; id:48 | cmd:laugh_l
+; data:["271"]
+きらり:きらりも -story_1000001_127.mp3 -notend -wait=667;
+; id:27 | cmd:nod
+; data:["271"]
+きらり:すっごく楽しかったよぉ !  -concat -notend -wait=1667;
+changeFigure:chara_271/costume_00/chara_271_00_face_02.png -id=fig-271 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:杏ちゃんもだよね？ -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_134/costume_00/chara_134_00_face_01.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:んー、まぁまぁ…… -story_1000001_128.mp3 -notend -wait=2000;
+changeFigure:chara_134/costume_00/chara_134_00_base.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:かな。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:いやー、 -story_1000001_129.mp3 -notend -wait=333;
+; id:26 | cmd:pop
+; data:["234"]
+未央:最高だった ! | -concat -notend -wait=1000;
+未央:次は、 -concat -notend -wait=500;
+; id:46 | cmd:find_l
+; data:["234"]
+未央:ファンのみんなの前で披露したいね !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_base.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:ファンの前で、か……。| -story_1000001_130.mp3 -notend -wait=2667;
+changeFigure:chara_167/costume_00/chara_167_00_face_02.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:次はもっと、 -concat -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["167"]
+凛:完璧にしてみたいな。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_01.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:私たちは、まだ階段を -story_1000001_131.mp3 -notend -wait=2334;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:一歩上がったばかりだけど……。| -concat -notend -wait=2667;
+changeFigure:chara_101/costume_00/chara_101_00_face_02.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+卯月:プロデューサーさん、 -concat -notend -wait=1000;
+卯月:これからも、 -concat -notend -wait=667;
+; id:27 | cmd:nod
+; data:["101"]
+卯月:よろしくお願いします ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_02.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+凛:うん。プロデュース、 -story_1000001_132.mp3 -notend -wait=1667;
+; id:27 | cmd:nod
+; data:["167"]
+凛:よろしくね。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+未央:プロデューサー、 -story_1000001_133.mp3 -notend -wait=667;
+changeFigure:chara_234/costume_00/chara_234_00_face_06.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:27 | cmd:nod
+; data:["234"]
+未央:すぐに忙しくなるからね !| -concat -notend -wait=1667;
+changeFigure:chara_234/costume_00/chara_234_00_base.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:さーて、 -concat -notend -wait=333;
+未央:みんな !  -concat -notend -wait=667;
+未央:それじゃあさっそく、 -concat -notend -wait=333;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+; id:26 | cmd:pop
+; data:["234"]
+未央:次の曲のレッスンをはじめよ～ ! ! -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":1} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_101/costume_00/chara_101_00_face_03.png -id=fig-101 -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-101 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["101"]
+卯月:も、もうですか～ ! |私、 -story_1000001_134.mp3 -notend -wait=3000;
+; id:58 | cmd:drop_r
+; data:["101"]
+卯月:もう動けませ～ん !  -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_167/costume_00/chara_167_00_face_03.png -id=fig-167 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=0 -next;
+; id:52 | cmd:sweat_l
+; data:["167"]
+凛:ちょ、 -story_1000001_135.mp3 -notend -wait=333;
+; id:27 | cmd:nod
+; data:["167"]
+凛:ちょっとくらい休もうよ……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_134/costume_00/chara_134_00_face_03.png -id=fig-134 -right -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-134 -duration=0 -next;
+杏:杏、 -story_1000001_136.mp3 -notend -wait=1000;
+; id:27 | cmd:nod
+; data:["134"]
+杏:もう無理……。 -concat;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-271 -duration=0 -next;
+changeFigure:chara_271/costume_00/chara_271_00_face_03.png -id=fig-271 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-271 -duration=0 -next;
+きらり:てへへ……。 -story_1000001_137.mp3;
+; id:12 | cmd:touch
+; data:["Null"]
+setTransform:{"alpha":0} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-234 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-002 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-252 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-282 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-134 -duration=300 -next;
+setTransform:{"alpha":0} -target=fig-271 -duration=300 -next;
+; id:62 | cmd:window_visible
+; data:["false"]
+setTransform:{"alpha":1} -target=fig-101 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-167 -duration=300 -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=300 -next;
+wait:333;
+setTransform:{"brightness":0.7} -target=fig-101 -duration=0 -next;
+setTransform:{"brightness":1} -target=fig-234 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-167 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-002 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-252 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-282 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-134 -duration=0 -next;
+setTransform:{"brightness":0.7} -target=fig-271 -duration=0 -next;
+changeFigure:chara_234/costume_00/chara_234_00_face_02.png -id=fig-234 -left -transform={"brightness":1} -next;
+setTransform:{"alpha":1} -target=fig-234 -duration=0 -next;
+未央:ほら、あの空を見上げてごらん ! |みよ、アイドルの星は輝いている～ ! -story_1000001_138.mp3 -wait=3668;
+; id:43 | cmd:flower_y
+; data:["234"]
+; id:24 | cmd:jump
+; data:["234","2"]
+; id:12 | cmd:touch
+; data:["Null"]
+end;
