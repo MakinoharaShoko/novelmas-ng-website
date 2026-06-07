@@ -1,0 +1,105 @@
+setVar:name=Producer;
+; title: 木村夏樹
+; outline: 『木村夏樹』の特訓エピソードです。
+; id:7 | cmd:background
+; data:["3011"]
+; id:11 | cmd:bgm
+; data:["bgm/bgm_commu_regular"]
+; id:2 | cmd:chara
+; data:["238","C","0","0"]
+wait:333;
+setTransform:{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86}} -target=fig-238 -duration=0 -ignoreDefault -parallel -next;
+夏樹:アタシ、 -story_2300009_001.mp3 -notend -wait=333;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:いまアイドルを目指してるって言ったら、| -concat -notend -wait=1667;
+; id:5 | cmd:face
+; data:["238","3"]
+夏樹:ダチに大笑いされちゃったよ…… -concat -notend -wait=1667;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:まったく、 -concat -notend -wait=667;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.9288000000000001,"y":0.9288000000000001},"duration":120,"ease":"backOut"},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:失礼なヤツらだぜ。 -concat;
+setTransform:{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86}} -target=fig-238 -duration=0 -ignoreDefault -parallel -next;
+; id:5 | cmd:face
+; data:["238","0"]
+夏樹:アタシはさ、 -story_2300009_002.mp3 -notend -wait=667;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:アイドルのこと嫌いでもないし、 -concat -notend -wait=1333;
+夏樹:軽蔑もしてないぜ。| -concat -notend -wait=1000;
+; id:5 | cmd:face
+; data:["238","2"]
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:……カワイイのも嫌いじゃないしな。 -concat;
+setTransform:{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86}} -target=fig-238 -duration=0 -ignoreDefault -parallel -next;
+; id:5 | cmd:face
+; data:["238","0"]
+夏樹:それに、 -story_2300009_003.mp3 -notend -wait=833;
+夏樹:プロデューサーさんと出会って、| -concat -notend -wait=1500;
+; id:5 | cmd:face
+; data:["238","2"]
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:アイドルって生き方もカッコイイなって -concat -notend -wait=1667;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.9288000000000001,"y":0.9288000000000001},"duration":120,"ease":"backOut"},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:本気で思ったんだ。 -concat;
+setTransform:{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86}} -target=fig-238 -duration=0 -ignoreDefault -parallel -next;
+; id:5 | cmd:face
+; data:["238","0"]
+夏樹:あと…… -story_2300009_004.mp3 -notend -wait=333;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:アタシのプロデュースを必死にやるアンタの、| -concat -notend -wait=1333;
+; id:5 | cmd:face
+; data:["238","1"]
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.9288000000000001,"y":0.9288000000000001},"duration":120,"ease":"backOut"},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:そのアツい魂に…… -concat -notend -wait=1667;
+; id:5 | cmd:face
+; data:["238","5"]
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:感動、 -concat -notend -wait=333;
+夏樹:しちゃってさ。 -concat;
+setTransform:{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86}} -target=fig-238 -duration=0 -ignoreDefault -parallel -next;
+; id:5 | cmd:face
+; data:["238","0"]
+夏樹:こんなアタシに気をかけてくれて、 -story_2300009_005.mp3 -notend -wait=1333;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:マジで感謝してる。| -concat -notend -wait=2000;
+; id:5 | cmd:face
+; data:["238","5"]
+夏樹:だからこそ、 -concat -notend -wait=500;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.9288000000000001,"y":0.9288000000000001},"duration":120,"ease":"backOut"},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:アタシもアンタの期待に応えたいんだ。 -concat;
+setTransform:{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86}} -target=fig-238 -duration=0 -ignoreDefault -parallel -next;
+; id:5 | cmd:face
+; data:["238","2"]
+夏樹:見ててくれよ。 -story_2300009_006.mp3 -notend -wait=667;
+; id:5 | cmd:face
+; data:["238","5"]
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.9288000000000001,"y":0.9288000000000001},"duration":120,"ease":"backOut"},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:アタシはロックだけじゃない。| -concat -notend -wait=1000;
+; id:5 | cmd:face
+; data:["238","2"]
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:アイドルだって、 -concat -notend -wait=333;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.9288000000000001,"y":0.9288000000000001},"duration":120,"ease":"backOut"},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:やればできるってコトをさ…… !  -concat;
+; id:30 | cmd:se
+; data:["se_commu","se_commu_cut_1"]
+cgssPerform:black_out -duration=500 -alpha=1;
+setTextbox:hide -next;
+wait:1000;
+; id:4 | cmd:type
+; data:["238","2"]
+cgssPerform:black_in -duration=500 -alpha=1;
+wait:1667;
+setTransform:{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86}} -target=fig-238 -duration=0 -ignoreDefault -parallel -next;
+setTextbox:show -next;
+夏樹:アタシの魂、 -story_2300009_007.mp3 -notend;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.9288000000000001,"y":0.9288000000000001},"duration":120,"ease":"backOut"},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+wait:1000;
+夏樹:みんなに届けたい。 -concat -notend -wait=1000;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":175},"scale":{"x":0.86,"y":0.86},"duration":120},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:だから、 -concat -notend -wait=500;
+夏樹:一緒に音楽をやろう ! | -concat -notend -wait=1167;
+setTempAnimation:[{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":0},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.9288000000000001,"y":0.9288000000000001},"duration":120,"ease":"backOut"},{"alpha":1,"brightness":1,"position":{"x":0,"y":140},"scale":{"x":0.86,"y":0.86},"duration":120}] -target=fig-238 -ignoreDefault -parallel -skipNextCollect -next;
+夏樹:アンタは相棒だ !  -concat -notend -wait=1333;
+夏樹:プロデューサーさん !  -concat;
+end;

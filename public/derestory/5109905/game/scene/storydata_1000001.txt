@@ -1,0 +1,5567 @@
+id:0 | cmd:title
+data:["Stage, We Climb the Stairs."]
+
+id:1 | cmd:outline
+data:["事務所を訪れた卯月、未央、凛の三人は、\\n社内ステージでPVを撮影することになった。\\nアイドルに最も大切なことを教えられた一同は、\\nプロデューサーに導かれ、きらりや杏とともに、\\nアイドルとしての階段を上り始めたのだった。"]
+
+id:7 | cmd:background
+data:["3011"]
+
+id:11 | cmd:bgm
+data:["bgm/bgm_commu_regular"]
+
+id:61 | cmd:title_telop
+data:["1000001"]
+
+id:36 | cmd:situation
+data:["事務所"]
+
+id:15 | cmd:wait
+data:["5"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_0"]
+
+id:8 | cmd:print
+data:["卯月","プロデューサーさん !\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["卯月","おはようございます ! "]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","島村卯月ですっ !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_1"]
+
+id:8 | cmd:print
+data:["凛","おはようございます。"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","渋谷……"]
+
+id:15 | cmd:wait
+data:["45"]
+
+id:5 | cmd:face
+data:["167","0"]
+
+id:8 | cmd:print
+data:["凛","渋谷凛です。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_2"]
+
+id:8 | cmd:print
+data:["未央","おはようございます ! "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","本田未央でーっす☆"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["{0}P","おはよう。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_3"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","プロデューサーさん ! \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:48 | cmd:laugh_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","あらためて、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","今日からよろしくお願いしますね !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_4"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:8 | cmd:print
+data:["未央","よろしくねっ ! "]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","いやー、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","しかしいい事務所だね ! \\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","ここ以外の部屋もすごいんでしょ？\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:48 | cmd:laugh_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","レッスンルームとか、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["未央","スタジオとか ! "]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","はやく見てみたいなー ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_5"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","私はまだちょっと"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","落ち着かないけど……。\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["167","0"]
+
+id:8 | cmd:print
+data:["凛","自分がアイドルになった実感も、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["凛","まだないし。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_6"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:8 | cmd:print
+data:["卯月","たしかに、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["卯月","私も自分がアイドルになった実感、"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","まだないです……。\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["卯月","初めてのステージは、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["卯月","ドキドキしすぎて、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["卯月","夢みたいでしたし……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_7"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","私もだけど、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["未央","実感ってそのうちに"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","わいてくるものじゃないの？\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:48 | cmd:laugh_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","それより今は"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","早くお仕事したいな !\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["未央","LIVEとか、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","CDのレコーディングとか ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_8"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","私も、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["卯月","たくさんお仕事したいです !\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:5 | cmd:face
+data:["101","1"]
+
+id:8 | cmd:print
+data:["卯月","レッスンは養成所で"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["卯月","たっくさんしてきましたから、\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","ダンスのステップは"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","自信ありですよ !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_9"]
+
+id:8 | cmd:print
+data:["凛","2人とも、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["凛","やる気なんだ。\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","まぁ、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["167","0"]
+
+id:8 | cmd:print
+data:["凛","私もやるなら"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","もっとちゃんとやりたいと思うけど。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_10"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:8 | cmd:print
+data:["未央","お～っ？ "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","しぶりんって負けず嫌いだね ! \\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:8 | cmd:print
+data:["未央","じゃあ、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","一緒にあのアイドルの星目指して"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","がんばろっか ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_11"]
+
+id:8 | cmd:print
+data:["凛","べつに、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:52 | cmd:sweat_l
+data:["167"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","負けず嫌いとかじゃないけど……。\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["167","4"]
+
+id:8 | cmd:print
+data:["凛","だいたいどこにあるの、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["凛","そんな星……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_12"]
+
+id:5 | cmd:face
+data:["234","1"]
+
+id:8 | cmd:print
+data:["未央","なんか、"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:55 | cmd:question_r
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","右上あたり？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_13"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","あははは……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_14"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","はぁ……。\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["167","0"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","ところでプロデューサー、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["凛","私たちは"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["凛","このあとどうしたらいいの？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_15"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","そうそう ! "]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["未央","気になってた ! "]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","今後のスケジュール ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_16"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","レッスンですか？\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["卯月","私、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["卯月","レッスン頑張るのなら、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:26 | cmd:pop
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","得意です ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["　","小さいLIVEステージの予定があることを伝えた"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_17"]
+
+id:5 | cmd:face
+data:["234","5"]
+
+id:8 | cmd:print
+data:["未央","ふむふむ……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_18"]
+
+id:5 | cmd:face
+data:["101","5"]
+
+id:48 | cmd:laugh_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","わぁ……。\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["卯月","また、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","ステージで歌えるんですね ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:2 | cmd:chara
+data:["2","C","0","0"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_19"]
+
+id:47 | cmd:find_r
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","じゃあ、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","ここからは私が説明しますね。\\n"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:8 | cmd:print
+data:["ちひろ","みなさんには、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ちひろ","まずは宣材用の"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","PV撮影をしてもらいます。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_20"]
+
+id:5 | cmd:face
+data:["2","2"]
+
+id:8 | cmd:print
+data:["ちひろ","社内にあるステージセットで歌ってもらいますからね !\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","頑張ってください ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_21"]
+
+id:5 | cmd:face
+data:["234","3"]
+
+id:8 | cmd:print
+data:["未央","なーんだ、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:58 | cmd:drop_r
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","お客さんはいないのかぁ……。\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["未央","残念だなぁ～。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_22"]
+
+id:5 | cmd:face
+data:["167","0"]
+
+id:8 | cmd:print
+data:["凛","まぁ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["凛","新人だし、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","そういうものなんじゃないの？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_23"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","またステージに立てるってだけで"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["卯月","嬉しいです !\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["卯月","凛ちゃん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["卯月","未央ちゃん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","一緒に頑張りましょう ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:8 | cmd:print
+data:["　","まずはステージの前にレッスンなどがあると伝えた"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","C","0","0"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_24"]
+
+id:8 | cmd:print
+data:["ちひろ","それでは、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ちひろ","さっそくですが"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","レッスンルームへ移動しましょう !\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:47 | cmd:find_r
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","みなさん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","ついてきてください ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cut_2"]
+
+id:35 | cmd:transition
+data:["arrow"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:7 | cmd:background
+data:["3134"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_25"]
+
+id:8 | cmd:print
+data:["未央","いやー、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","しかし広くて大きい事務所だねぇ……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_26"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:8 | cmd:print
+data:["卯月","こんなに広いと、"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","迷子になっちゃったりしそうですね。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_27"]
+
+id:8 | cmd:print
+data:["凛","さすがに、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["凛","そんなことはないんじゃない？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","C","0","2"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_28"]
+
+id:48 | cmd:laugh_l
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","うふふっ。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ちひろ","普通は、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","そう思いますよね。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_29"]
+
+id:5 | cmd:face
+data:["167","3"]
+
+id:8 | cmd:print
+data:["凛","ってことは、"]
+
+id:15 | cmd:wait
+data:["25"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","あるんだ……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","C","0","0"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_30"]
+
+id:5 | cmd:face
+data:["2","0"]
+
+id:8 | cmd:print
+data:["ちひろ","えぇ。\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["ちひろ","うちのプロダクションには、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","小さい子なんかもいますからね。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_31"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:48 | cmd:laugh_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","こんなに広い建物でかくれんぼとかしたら、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","楽しそうだよね ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","C","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_32"]
+
+id:5 | cmd:face
+data:["2","3"]
+
+id:8 | cmd:print
+data:["ちひろ","プロデューサーさんを困らせちゃ、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:52 | cmd:sweat_l
+data:["2"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","ダメですよ !\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ちひろ","さぁ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ちひろ","つきました ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cut_2"]
+
+id:35 | cmd:transition
+data:["arrow"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:7 | cmd:background
+data:["3241"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_33"]
+
+id:5 | cmd:face
+data:["2","0"]
+
+id:8 | cmd:print
+data:["ちひろ","ここは、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ちひろ","衣装室です。\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ちひろ","みなさんの衣装を"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","フィッティングするときは"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","ここを使うんですよ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_34"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","わぁ……"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:48 | cmd:laugh_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","すてきな衣装がたくさん…… ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_35"]
+
+id:5 | cmd:face
+data:["167","2"]
+
+id:8 | cmd:print
+data:["凛","ふぅん……"]
+
+id:15 | cmd:wait
+data:["35"]
+
+id:8 | cmd:print
+data:["凛","すごいね。\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","いろんな衣装が置いてあるんだ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_36"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:46 | cmd:find_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","おぉっ？ "]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:8 | cmd:print
+data:["未央","しぶりんが興味を示したのは"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","こっちのフリフリかな？"]
+
+id:54 | cmd:question_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:8 | cmd:print
+data:["未央","それとも"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","こっちのセクシータイプかな？"]
+
+id:55 | cmd:question_r
+data:["234"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_37"]
+
+id:5 | cmd:face
+data:["167","4"]
+
+id:52 | cmd:sweat_l
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","いや、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:52 | cmd:sweat_l
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","どっちでもないけど……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_38"]
+
+id:5 | cmd:face
+data:["234","4"]
+
+id:8 | cmd:print
+data:["未央","んもう ! "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","つれないなー。\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","ねぇねぇプロデューサー、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","質問っ !\\n"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:48 | cmd:laugh_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","しぶりんが着たら"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["未央","似合うと思うのはどっち？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:13 | cmd:choice
+data:["フリフリ","1"]
+
+id:13 | cmd:choice
+data:["セクシー","2"]
+
+id:9 | cmd:tag
+data:["1"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_39"]
+
+id:5 | cmd:face
+data:["167","3"]
+
+id:46 | cmd:find_l
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","えっ……。\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["凛","こういうのは、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["凛","卯月の方が"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:52 | cmd:sweat_l
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","似合うと思うけど……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_40"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","私ですか？ "]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","うーん、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","そうですね、\\n"]
+
+id:15 | cmd:wait
+data:["80"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:48 | cmd:laugh_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","フリフリのお洋服も"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:26 | cmd:pop
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","カワイイなって思います ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_41"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:8 | cmd:print
+data:["未央","んもー、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","しぶりんったら"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","しまむーに押し付けて～。\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:47 | cmd:find_r
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","素直じゃないんだからー ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:10 | cmd:goto
+data:["3"]
+
+id:9 | cmd:tag
+data:["2"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_42"]
+
+id:5 | cmd:face
+data:["167","2"]
+
+id:8 | cmd:print
+data:["凛","ふーん。\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","プロデューサーって、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","そういう趣味なんだ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_43"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:8 | cmd:print
+data:["未央","おっ？ "]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["未央","意外や意外、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","しぶりんも乗り気かな？ "]
+
+id:55 | cmd:question_r
+data:["234"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["未央","かなー？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_44"]
+
+id:5 | cmd:face
+data:["167","4"]
+
+id:8 | cmd:print
+data:["凛","いや、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["凛","そういう訳じゃ…… ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_45"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","凛ちゃん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:48 | cmd:laugh_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","今度着てみてくださいねっ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_46"]
+
+id:5 | cmd:face
+data:["167","4"]
+
+id:52 | cmd:sweat_l
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","だから違うってば…… !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:10 | cmd:goto
+data:["3"]
+
+id:9 | cmd:tag
+data:["3"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","RC","0","0"]
+
+id:2 | cmd:chara
+data:["252","LC","0","0"]
+
+id:20 | cmd:fadein
+data:["2:252"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["252"]
+
+id:14 | cmd:vo
+data:["voice_47"]
+
+id:46 | cmd:find_l
+data:["252"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","あっ、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","ちひろさん ! "]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","それに、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","プロデューサーさん !\\n"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","みなさんも、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["252"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","お疲れさまです～っ !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_48"]
+
+id:8 | cmd:print
+data:["ちひろ","お疲れさまでーす。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101:167:234"]
+
+id:14 | cmd:vo
+data:["voice_49"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["未央・卯月・凛","お疲れさまです ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["2:252"]
+
+id:6 | cmd:focus
+data:["252"]
+
+id:14 | cmd:vo
+data:["voice_50"]
+
+id:5 | cmd:face
+data:["252","3"]
+
+id:54 | cmd:question_l
+data:["252"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","あれ？ \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","この時間って"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","フィッティングの予定、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["252"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","入ってましたっけ……？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_51"]
+
+id:5 | cmd:face
+data:["2","3"]
+
+id:8 | cmd:print
+data:["ちひろ","あぁ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ちひろ","違うんです。\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["ちひろ","今は"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","みんなで見学してるところなんですよ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_52"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","お邪魔してますっ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["2:252"]
+
+id:6 | cmd:focus
+data:["252"]
+
+id:14 | cmd:vo
+data:["voice_53"]
+
+id:5 | cmd:face
+data:["252","2"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","あ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","な～んだ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["252"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","そうだったんですね ! \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:48 | cmd:laugh_l
+data:["252"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","じゃあ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","ごゆっくりどうぞ。 \\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["252","0"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","私は用事がありますので、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["ルーキートレーナー","これで。 "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:19 | cmd:out_R
+data:["252","60"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_54"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","お疲れさまでした ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_55"]
+
+id:8 | cmd:print
+data:["凛","ちひろさん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:55 | cmd:question_r
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","今の人は？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","C","0","0"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_56"]
+
+id:5 | cmd:face
+data:["2","0"]
+
+id:8 | cmd:print
+data:["ちひろ","今のは"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","新人のトレーナーちゃんですよ。\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["2","2"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","みんなのお手伝いをしてくれるんです。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_57"]
+
+id:8 | cmd:print
+data:["凛","ふぅん……"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","そうなんだ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","C","0","0"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_58"]
+
+id:8 | cmd:print
+data:["ちひろ","さぁ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","次の場所に行きましょうか !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cut_2"]
+
+id:35 | cmd:transition
+data:["arrow"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:7 | cmd:background
+data:["3041"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:62 | cmd:window_visible
+data:["true"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_59"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:46 | cmd:find_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","おー、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["未央","レッスンスタジオ ! "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","ひろーい ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","C","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_60"]
+
+id:8 | cmd:print
+data:["ちひろ","ここがレッスンスタジオです。\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["ちひろ","みなさんには、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","LIVEステージに立つ前に、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","まずはレッスンしてもらいます !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_61"]
+
+id:5 | cmd:face
+data:["2","1"]
+
+id:8 | cmd:print
+data:["ちひろ","いいですか、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["2","0"]
+
+id:48 | cmd:laugh_l
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","LIVEの前は"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","レッスンと特訓 ! \\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["ちひろ","基本ですから、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ちひろ","ちゃんと覚えておいてくださいね ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_62"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","えぇっ ! "]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:55 | cmd:question_r
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","これからですか？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","C","0","0"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_63"]
+
+id:8 | cmd:print
+data:["ちひろ","えぇ ! "]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["2","2"]
+
+id:8 | cmd:print
+data:["ちひろ","ねっ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ちひろ","プロデューサーさん ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:13 | cmd:choice
+data:["みんななら大丈夫だ","4"]
+
+id:13 | cmd:choice
+data:["頑張れ","4"]
+
+id:9 | cmd:tag
+data:["4"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_64"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:8 | cmd:print
+data:["未央","うんうん ! "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","大丈夫、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["未央","頑張ろう ! \\n"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","しぶりん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","しまむー ! "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","特訓だよ特訓 !"]
+
+id:24 | cmd:jump
+data:["234","2"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_65"]
+
+id:8 | cmd:print
+data:["凛","まぁ、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","まずはやってみるけど……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_66"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","はい ! "]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["卯月","2人とも、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","一緒に頑張りましょう !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","RC","0","0"]
+
+id:2 | cmd:chara
+data:["282","LC","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["282"]
+
+id:14 | cmd:vo
+data:["voice_67"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","みんな、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:26 | cmd:pop
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","気合は十分みたいだな ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_68"]
+
+id:8 | cmd:print
+data:["ちひろ","トレーナーさん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","あとは"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","よろしくお願いしますね ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["282"]
+
+id:14 | cmd:vo
+data:["voice_69"]
+
+id:5 | cmd:face
+data:["282","1"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","あぁ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","任せろ ! \\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["282","0"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","さぁお前たち、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","私がトレーニングしてやる ! \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:26 | cmd:pop
+data:["282"]
+
+id:45 | cmd:concent
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","厳しくいくぞ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_70"]
+
+id:5 | cmd:face
+data:["234","3"]
+
+id:25 | cmd:shake
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","ひょえ～ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:33 | cmd:white_out
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","99","3"]
+
+id:34 | cmd:white_in
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_71"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","け、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:53 | cmd:sweat_r
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","結構"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","ハードです～ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["282","C","0","4"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["282"]
+
+id:14 | cmd:vo
+data:["voice_72"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","島村 !\\n"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:45 | cmd:concent
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","もたつくな ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:33 | cmd:white_out
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:2 | cmd:chara
+data:["282","C","0","4"]
+
+id:34 | cmd:white_in
+data:["Null"]
+
+id:6 | cmd:focus
+data:["282"]
+
+id:14 | cmd:vo
+data:["voice_73"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","渋谷 !\\n"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:45 | cmd:concent
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","動きが硬い ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["167","C","99","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_74"]
+
+id:5 | cmd:face
+data:["167","0","99"]
+
+id:8 | cmd:print
+data:["凛","もう一回、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","お願いします ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:33 | cmd:white_out
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["234","C","99","0"]
+
+id:34 | cmd:white_in
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_75"]
+
+id:8 | cmd:print
+data:["未央","5、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["未央","6、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["未央","ここでターン ! "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:46 | cmd:find_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","決まった～ ! "]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:5 | cmd:face
+data:["234","2","99"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","いぇーいっ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["282","C","0","4"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["282"]
+
+id:14 | cmd:vo
+data:["voice_76"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","本田 ! \\n"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:45 | cmd:concent
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","最後まで気を抜くな ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["234","C","99","3"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_77"]
+
+id:52 | cmd:sweat_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","す、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:52 | cmd:sweat_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","すみませんでしたっ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["282","C","0","0"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:6 | cmd:focus
+data:["282"]
+
+id:14 | cmd:vo
+data:["voice_78"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","ま、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","初めてならこんなものか。\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:5 | cmd:face
+data:["282","6"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","お前たち、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","ギリギリ及第点だ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","99","2"]
+
+id:2 | cmd:chara
+data:["167","R","99","2"]
+
+id:2 | cmd:chara
+data:["234","L","99","2"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101:167:234"]
+
+id:14 | cmd:vo
+data:["voice_79"]
+
+id:8 | cmd:print
+data:["未央・卯月・凛","やった～ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["282","C","0","1"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["282"]
+
+id:14 | cmd:vo
+data:["voice_80"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","だが、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","お前たちがステージに立つには、\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["282","0"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","まだ大事なものが欠けているようだな。\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:5 | cmd:face
+data:["282","3"]
+
+id:27 | cmd:nod
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","わかるか？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","99","0"]
+
+id:2 | cmd:chara
+data:["167","R","99","0"]
+
+id:2 | cmd:chara
+data:["234","L","99","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_81"]
+
+id:5 | cmd:face
+data:["101","3","99"]
+
+id:54 | cmd:question_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","大事なもの……？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_82"]
+
+id:5 | cmd:face
+data:["234","3","99"]
+
+id:57 | cmd:drop_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","ん～……"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["未央","なんだろう？ "]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["未央","しぶりん、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:55 | cmd:question_r
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","わかる？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_83"]
+
+id:5 | cmd:face
+data:["167","1","99"]
+
+id:8 | cmd:print
+data:["凛","全然、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["凛","想像もつかない。\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:5 | cmd:face
+data:["167","0","99"]
+
+id:8 | cmd:print
+data:["凛","踊りはなんとか覚えたし、"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["凛","歌も"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["凛","せいぜい"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","全力で歌うくらいしか……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["2","RC","0","0"]
+
+id:2 | cmd:chara
+data:["282","LC","0","0"]
+
+id:20 | cmd:fadein
+data:["2:282"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["282"]
+
+id:14 | cmd:vo
+data:["voice_84"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","プロデューサー、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","彼女たちにとって一番大事なもの、\\n"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:48 | cmd:laugh_l
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","ステージに立つときに"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["282"]
+
+id:8 | cmd:print
+data:["ベテラントレーナー","教えてやってください。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_85"]
+
+id:5 | cmd:face
+data:["2","2"]
+
+id:8 | cmd:print
+data:["ちひろ","みんな、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["ちひろ","準備はいいみたいですね ! \\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["2","0"]
+
+id:8 | cmd:print
+data:["ちひろ","じゃあ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","ステージまで移動しましょう !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cut_2"]
+
+id:35 | cmd:transition
+data:["arrow"]
+
+id:31 | cmd:black_out
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:7 | cmd:background
+data:["3504"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:32 | cmd:black_in
+data:["Null"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:36 | cmd:situation
+data:["LIVE前"]
+
+id:2 | cmd:chara
+data:["134","R","0","0"]
+
+id:2 | cmd:chara
+data:["271","C","0","0"]
+
+id:20 | cmd:fadein
+data:["134:271"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_86"]
+
+id:5 | cmd:face
+data:["134","6"]
+
+id:8 | cmd:print
+data:["杏","はぁ～……。\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["杏","杏がなんで"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["134"]
+
+id:8 | cmd:print
+data:["杏","こんなことしなきゃいけないんだ……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["271"]
+
+id:14 | cmd:vo
+data:["voice_87"]
+
+id:8 | cmd:print
+data:["きらり","杏ちゃん、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["きらり","大切なステージなんだから、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:27 | cmd:nod
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","がんばろぉ？\\n"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["271","2"]
+
+id:8 | cmd:print
+data:["きらり","ほら、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["きらり","ハピハピキャンディ、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["271"]
+
+id:50 | cmd:chord_l
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","あげるから～。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_88"]
+
+id:5 | cmd:face
+data:["134","1"]
+
+id:8 | cmd:print
+data:["杏","はむ……。\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["134","0"]
+
+id:8 | cmd:print
+data:["杏","はぁ、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["134"]
+
+id:8 | cmd:print
+data:["杏","仕方ないなー。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:2 | cmd:chara
+data:["2","L","0","0"]
+
+id:16 | cmd:in_L
+data:["2","70"]
+
+id:6 | cmd:focus
+data:["2"]
+
+id:14 | cmd:vo
+data:["voice_89"]
+
+id:8 | cmd:print
+data:["ちひろ","杏ちゃん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["ちひろ","きらりちゃん、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["2"]
+
+id:8 | cmd:print
+data:["ちひろ","お待たせしました ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["271"]
+
+id:14 | cmd:vo
+data:["voice_90"]
+
+id:5 | cmd:face
+data:["271","0"]
+
+id:8 | cmd:print
+data:["きらり","ちひろさん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["きらり","Pちゃん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:43 | cmd:flower_y
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","おはようございまーす ! \\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:5 | cmd:face
+data:["271","2"]
+
+id:8 | cmd:print
+data:["きらり","みんな、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","おっすおっすぅ☆ "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:26 | cmd:pop
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","今日はよろしくにぃ☆"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_91"]
+
+id:5 | cmd:face
+data:["134","1"]
+
+id:8 | cmd:print
+data:["杏","なんでもいいからさくっと終わらせて、"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["杏","寝たい……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["101","C","0","0"]
+
+id:2 | cmd:chara
+data:["167","R","0","0"]
+
+id:2 | cmd:chara
+data:["234","L","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_92"]
+
+id:46 | cmd:find_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","杏ちゃんときらりちゃん ! \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","一緒のステージなんですね ! "]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["卯月","よろしくお願いします !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_93"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:8 | cmd:print
+data:["未央","お2人さんとも、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","よろしくぅ ! \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","ところでプロデューサー、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["未央","さっきトレーナーさんが言ってた話、\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","答えを教えてほしいなーっ !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_94"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","たしかに、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["167","0"]
+
+id:8 | cmd:print
+data:["凛","気になるね……。\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","ステージで大事なモノって……"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["凛","なに？"]
+
+id:54 | cmd:question_l
+data:["167"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:13 | cmd:choice
+data:["笑顔が大事だ","5"]
+
+id:9 | cmd:tag
+data:["5"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_95"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:8 | cmd:print
+data:["卯月","笑顔……"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:55 | cmd:question_r
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","ですか？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_96"]
+
+id:5 | cmd:face
+data:["234","3"]
+
+id:8 | cmd:print
+data:["未央","そっか、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["未央","さっきはレッスンについてくのに"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","必死だったんだ……"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","私。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_97"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","一番大事なのは、"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["凛","笑顔……"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["凛","か。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["101:167:234"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["134","RC","0","0"]
+
+id:2 | cmd:chara
+data:["271","LC","0","0"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_98"]
+
+id:5 | cmd:face
+data:["134","1"]
+
+id:8 | cmd:print
+data:["杏","営業スマイルか……"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:48 | cmd:laugh_l
+data:["134"]
+
+id:5 | cmd:face
+data:["134","1"]
+
+id:8 | cmd:print
+data:["杏","お安いご用だね。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["271"]
+
+id:14 | cmd:vo
+data:["voice_99"]
+
+id:5 | cmd:face
+data:["271","2"]
+
+id:8 | cmd:print
+data:["きらり","きっと、"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:8 | cmd:print
+data:["きらり","ステージは"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","とっても楽しいから、\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["きらり","ハピハピで"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["きらり","スマイルいっぱいに"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:26 | cmd:pop
+data:["271"]
+
+id:43 | cmd:flower_y
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","なれちゃうにぃ ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_100"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","うん ! "]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","凛ちゃん、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["卯月","未央ちゃん ! \\n"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["卯月","杏ちゃん、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["卯月","きらりちゃん ! \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","ステージは笑顔で"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:26 | cmd:pop
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","頑張りましょう !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_101"]
+
+id:5 | cmd:face
+data:["167","2"]
+
+id:8 | cmd:print
+data:["凛","……うん !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["134:271"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_102"]
+
+id:5 | cmd:face
+data:["134","1"]
+
+id:8 | cmd:print
+data:["杏","仕方ないなー。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["271"]
+
+id:14 | cmd:vo
+data:["voice_103"]
+
+id:5 | cmd:face
+data:["271","2"]
+
+id:8 | cmd:print
+data:["きらり","おっすおっす !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_104"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","じゃー、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","いっちょステージの上でも笑顔で、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:43 | cmd:flower_y
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","やっちゃいますかー ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:30 | cmd:se
+data:["se_commu","se_commu_cut_1"]
+
+id:35 | cmd:transition
+data:["Null"]
+
+id:33 | cmd:white_out
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:7 | cmd:background
+data:["3504"]
+
+id:59 | cmd:live
+data:["29","1","100001","300001","200001","100027","300033"]
+
+id:33 | cmd:white_out
+data:["1","0"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:6 | cmd:focus
+data:["0"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:34 | cmd:white_in
+data:["Null"]
+
+id:36 | cmd:situation
+data:["LIVE後"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_105"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:8 | cmd:print
+data:["卯月","はぁ……。"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","終わっちゃった……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_106"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:8 | cmd:print
+data:["未央","やっぱり、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:48 | cmd:laugh_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","LIVEっていいなぁ ! \\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["未央","ねぇ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["未央","みんなそう思うよね ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:2 | cmd:chara
+data:["134","RC","0","0"]
+
+id:2 | cmd:chara
+data:["271","LC","0","0"]
+
+id:20 | cmd:fadein
+data:["134:271"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_107"]
+
+id:5 | cmd:face
+data:["134","3"]
+
+id:58 | cmd:drop_r
+data:["134"]
+
+id:8 | cmd:print
+data:["杏","疲れた……。\\n"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:8 | cmd:print
+data:["杏","双葉杏、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["134","1"]
+
+id:27 | cmd:nod
+data:["134"]
+
+id:8 | cmd:print
+data:["杏","もう引退します……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["271"]
+
+id:14 | cmd:vo
+data:["voice_108"]
+
+id:5 | cmd:face
+data:["271","4"]
+
+id:8 | cmd:print
+data:["きらり","こーら。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["きらり","杏ちゃん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","だーめ ! \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["271","0"]
+
+id:8 | cmd:print
+data:["きらり","ステージは楽しかったでしょ♪"]
+
+id:50 | cmd:chord_l
+data:["271"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_109"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","うん……"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["167","3"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","でも……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_110"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:8 | cmd:print
+data:["卯月","お客さんがいないLIVEって、"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","なんだか……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_111"]
+
+id:5 | cmd:face
+data:["234","3"]
+
+id:8 | cmd:print
+data:["未央","やっぱり、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","味気ないよね。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["234","4"]
+
+id:8 | cmd:print
+data:["未央","分かってはいたけどさ……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_112"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","でも私、"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","それでも良かったって思います !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_113"]
+
+id:5 | cmd:face
+data:["167","0"]
+
+id:54 | cmd:question_l
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","卯月？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_114"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","私のファンは、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["101","5"]
+
+id:26 | cmd:pop
+data:["101"]
+
+id:44 | cmd:flower_r
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","ちゃんと観ていてくれましたから ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["134:271"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_115"]
+
+id:54 | cmd:question_l
+data:["134"]
+
+id:8 | cmd:print
+data:["杏","……？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_116"]
+
+id:55 | cmd:question_r
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","……？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_117"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:46 | cmd:find_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","あぁ、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","そっか ! "]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["未央","そうだね ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_118"]
+
+id:8 | cmd:print
+data:["凛","どういうこと？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_119"]
+
+id:5 | cmd:face
+data:["101","5"]
+
+id:8 | cmd:print
+data:["卯月","私を見つけ出してくれた人、"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","私をアイドルにしてくれた人……\\n"]
+
+id:15 | cmd:wait
+data:["80"]
+
+id:5 | cmd:face
+data:["101","1"]
+
+id:8 | cmd:print
+data:["卯月","そして、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","私の最初のファンになってくれた人 !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_120"]
+
+id:5 | cmd:face
+data:["167","2"]
+
+id:8 | cmd:print
+data:["凛","…… ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["134:271"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["271"]
+
+id:14 | cmd:vo
+data:["voice_121"]
+
+id:5 | cmd:face
+data:["271","0"]
+
+id:8 | cmd:print
+data:["きらり","……"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["きらり","うん !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_122"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","プロデューサーさん ! "]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","私たちのステージ、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","どうでしたか？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:13 | cmd:choice
+data:["最高だった","6"]
+
+id:9 | cmd:tag
+data:["6"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_123"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:50 | cmd:chord_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","へへっ ! "]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","そりゃそうよ !\\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["未央","未来のトップアイドルたち……"]
+
+id:15 | cmd:wait
+data:["60"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:8 | cmd:print
+data:["未央","予定、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","のステージを、\\n"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","独り占めしたんだからね ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_124"]
+
+id:5 | cmd:face
+data:["167","2"]
+
+id:48 | cmd:laugh_l
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","ふふっ。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","そっか……\\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["167","1"]
+
+id:8 | cmd:print
+data:["凛","まだ1人だけど、"]
+
+id:15 | cmd:wait
+data:["70"]
+
+id:8 | cmd:print
+data:["凛","私たちにも"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["167","2"]
+
+id:8 | cmd:print
+data:["凛","ファンがいるんだ。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_125"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","うん ! "]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:5 | cmd:face
+data:["101","0"]
+
+id:8 | cmd:print
+data:["卯月","凛ちゃん、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["卯月","未央ちゃん、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["卯月","杏ちゃん、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["卯月","きらりちゃん ! \\n"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["101","5"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","それとプロデューサーさん ! \\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["卯月","ありがとうございました ! "]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","私、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:26 | cmd:pop
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","すっごく楽しかったです ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:20 | cmd:fadein
+data:["134:271"]
+
+id:6 | cmd:focus
+data:["271"]
+
+id:14 | cmd:vo
+data:["voice_126"]
+
+id:5 | cmd:face
+data:["271","0"]
+
+id:48 | cmd:laugh_l
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","きらりも"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["271"]
+
+id:8 | cmd:print
+data:["きらり","すっごく楽しかったよぉ ! "]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["271","2"]
+
+id:8 | cmd:print
+data:["きらり","杏ちゃんもだよね？"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_127"]
+
+id:5 | cmd:face
+data:["134","1"]
+
+id:8 | cmd:print
+data:["杏","んー、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["杏","まぁまぁ……"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:5 | cmd:face
+data:["134","0"]
+
+id:8 | cmd:print
+data:["杏","かな。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_128"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:8 | cmd:print
+data:["未央","いやー、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","最高だった ! \\n"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["未央","次は、"]
+
+id:15 | cmd:wait
+data:["15"]
+
+id:46 | cmd:find_l
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","ファンのみんなの前で披露したいね ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_129"]
+
+id:5 | cmd:face
+data:["167","0"]
+
+id:8 | cmd:print
+data:["凛","ファンの前で、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["凛","か……。\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["167","2"]
+
+id:8 | cmd:print
+data:["凛","次はもっと、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","完璧にしてみたいな。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_130"]
+
+id:5 | cmd:face
+data:["101","1"]
+
+id:8 | cmd:print
+data:["卯月","私たちは、"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["卯月","まだ階段を"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","一歩上がったばかりだけど……。\\n"]
+
+id:15 | cmd:wait
+data:["80"]
+
+id:5 | cmd:face
+data:["101","2"]
+
+id:8 | cmd:print
+data:["卯月","プロデューサーさん、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["卯月","これからも、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","よろしくお願いします !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_131"]
+
+id:5 | cmd:face
+data:["167","2"]
+
+id:8 | cmd:print
+data:["凛","うん。"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:8 | cmd:print
+data:["凛","プロデュース、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","よろしくね。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_132"]
+
+id:8 | cmd:print
+data:["未央","プロデューサー、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:5 | cmd:face
+data:["234","6"]
+
+id:27 | cmd:nod
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","すぐに忙しくなるからね !\\n"]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:5 | cmd:face
+data:["234","0"]
+
+id:8 | cmd:print
+data:["未央","さーて、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:8 | cmd:print
+data:["未央","みんな ! "]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","それじゃあさっそく、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:26 | cmd:pop
+data:["234"]
+
+id:8 | cmd:print
+data:["未央","次の曲のレッスンをはじめよ～ ! !"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["101"]
+
+id:14 | cmd:vo
+data:["voice_133"]
+
+id:5 | cmd:face
+data:["101","3"]
+
+id:52 | cmd:sweat_l
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","も、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["卯月","もうですか～ ! \\n"]
+
+id:15 | cmd:wait
+data:["40"]
+
+id:8 | cmd:print
+data:["卯月","私、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:58 | cmd:drop_r
+data:["101"]
+
+id:8 | cmd:print
+data:["卯月","もう動けませ～ん ! "]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["167"]
+
+id:14 | cmd:vo
+data:["voice_134"]
+
+id:5 | cmd:face
+data:["167","3"]
+
+id:52 | cmd:sweat_l
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","ちょ、"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:27 | cmd:nod
+data:["167"]
+
+id:8 | cmd:print
+data:["凛","ちょっとくらい休もうよ……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["134:271"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["134"]
+
+id:14 | cmd:vo
+data:["voice_135"]
+
+id:5 | cmd:face
+data:["134","3"]
+
+id:8 | cmd:print
+data:["杏","杏、"]
+
+id:15 | cmd:wait
+data:["30"]
+
+id:27 | cmd:nod
+data:["134"]
+
+id:8 | cmd:print
+data:["杏","もう無理……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:6 | cmd:focus
+data:["271"]
+
+id:14 | cmd:vo
+data:["voice_136"]
+
+id:5 | cmd:face
+data:["271","3"]
+
+id:8 | cmd:print
+data:["きらり","てへへ……。"]
+
+id:12 | cmd:touch
+data:["Null"]
+
+id:21 | cmd:fadeout
+data:["Null"]
+
+id:62 | cmd:window_visible
+data:["false"]
+
+id:20 | cmd:fadein
+data:["101:167:234"]
+
+id:15 | cmd:wait
+data:["10"]
+
+id:6 | cmd:focus
+data:["234"]
+
+id:14 | cmd:vo
+data:["voice_137"]
+
+id:5 | cmd:face
+data:["234","2"]
+
+id:8 | cmd:print
+data:["未央","ほら、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","あの空を見上げてごらん ! "]
+
+id:15 | cmd:wait
+data:["50"]
+
+id:8 | cmd:print
+data:["未央","\\nみよ、"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","アイドルの星は"]
+
+id:15 | cmd:wait
+data:["20"]
+
+id:8 | cmd:print
+data:["未央","輝いている～ !"]
+
+id:43 | cmd:flower_y
+data:["234"]
+
+id:24 | cmd:jump
+data:["234","2"]
+
+id:12 | cmd:touch
+data:["Null"]
